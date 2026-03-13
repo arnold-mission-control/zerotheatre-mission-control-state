@@ -1,0 +1,96 @@
+{
+  "currency": "USD",
+  "tracked": {
+    "modelMonthToDate": 0,
+    "modelLifetime": 0,
+    "subscriptionMonthlyTotal": 0,
+    "oneTimeTotal": 0,
+    "adSpendMonthToDate": 0,
+    "adSpendLifetime": 0,
+    "inventoryCarryingCost": 0,
+    "trackedTotal": 0
+  },
+  "ledger": {
+    "currency": "USD",
+    "updatedAt": "2026-03-11T11:24:00.000Z",
+    "notes": [
+      "This is the tracked-cost ledger for Mission Control.",
+      "Model/runtime costs and recurring subscriptions are tracked separately so Kolby can see operating burn more clearly.",
+      "POD inventory carrying cost is effectively zero until orders are fulfilled, so do not fake COGS here."
+    ],
+    "modelCosts": {
+      "monthToDate": 0,
+      "lifetime": 0,
+      "status": "unfilled",
+      "sources": [
+        {
+          "name": "OpenAI / Codex / GPT usage",
+          "amount": 0,
+          "status": "unfilled"
+        },
+        {
+          "name": "OpenRouter usage",
+          "amount": 0,
+          "status": "unfilled"
+        },
+        {
+          "name": "Anthropic / other model usage",
+          "amount": 0,
+          "status": "unfilled"
+        }
+      ]
+    },
+    "subscriptions": {
+      "monthly": [
+        {
+          "name": "Shopify plan",
+          "amount": 0,
+          "status": "unfilled"
+        },
+        {
+          "name": "Vercel",
+          "amount": 0,
+          "status": "unfilled"
+        },
+        {
+          "name": "OpenClaw / agent stack",
+          "amount": 0,
+          "status": "unfilled"
+        },
+        {
+          "name": "Buffer / publishing tools",
+          "amount": 0,
+          "status": "unfilled"
+        },
+        {
+          "name": "Creative / media tools",
+          "amount": 0,
+          "status": "unfilled"
+        },
+        {
+          "name": "Domains / DNS / email infra",
+          "amount": 0,
+          "status": "unfilled"
+        }
+      ]
+    },
+    "oneTime": [
+      {
+        "name": "Initial setup / misc",
+        "amount": 0,
+        "status": "unfilled"
+      }
+    ],
+    "adSpend": {
+      "monthToDate": 0,
+      "lifetime": 0,
+      "status": "not_live"
+    },
+    "production": {
+      "inventoryCarryingCost": 0,
+      "note": "Print-on-demand means production cost is incurred per fulfilled order, not as held inventory."
+    }
+  },
+  "sourceHash": "8f97f01f4be9d40c61f3b77b0fece8f05302c91fa6976578407e05745006eff8",
+  "generatedAt": "2026-03-11T11:58:27.856Z"
+}
