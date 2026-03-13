@@ -2,22 +2,112 @@
   "summary": {
     "totalPhrases": 57,
     "backlog": 0,
-    "assetReady": 8,
+    "assetReady": 7,
     "printify": 0,
     "shopify": 0,
-    "live": 49,
+    "live": 50,
     "blockers": 0,
-    "inProduction": 8,
+    "inProduction": 7,
     "stageCounts": {
       "backlog": 0,
-      "asset": 8,
+      "asset": 7,
       "printify": 0,
       "shopify": 0,
-      "live": 49,
+      "live": 50,
       "blocked": 0
     }
   },
   "items": [
+    {
+      "phraseId": "phr-i-ate-like-a-pound-of-baby-carrots-and-now-i-feel-funny",
+      "phrase": "i ate like a // pound of // baby carrots // and now i // feel funny",
+      "status": "asset",
+      "statusLabel": "Asset ready",
+      "lane": "asset",
+      "currentOwner": "Ops (asset)",
+      "nextOwner": "Printify",
+      "updatedAt": "2026-03-13T23:57:25.941Z",
+      "createdAt": "2026-03-13T19:59:05.410Z",
+      "sourceSummary": "",
+      "gates": {
+        "research_packaged": true,
+        "human_approved_research": true,
+        "judge_passed": false,
+        "ops_shopify_verified": false,
+        "content_generated": false,
+        "content_buffer_drafted": false,
+        "ads_live": false
+      },
+      "judge": {},
+      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-i-ate-like-a-pound-of-baby-carrots-and-now-i-feel-funny-i-ate-like-a-pound-of-baby-carrots-and-now-i-feel-funny.png",
+      "printifyProductId": null,
+      "shopifyProductId": null,
+      "shopifyHandle": null,
+      "shopifyVerdict": null,
+      "approvalSource": "research",
+      "phraseRecordStatus": "approved",
+      "desiredCollections": [
+        {
+          "source": "approval",
+          "title": "All Tees",
+          "handle": "all-tees",
+          "collectionId": 466115428409
+        },
+        {
+          "source": "approval",
+          "title": "New Arrivals",
+          "handle": "new-arrivals",
+          "collectionId": 466115493945
+        }
+      ],
+      "pipelineStage": "preflight_passed",
+      "dedupeResult": "clear"
+    },
+    {
+      "phraseId": "phr-stick-shift-girly",
+      "phrase": "stick shift girly",
+      "status": "live",
+      "statusLabel": "Live on site",
+      "lane": "live",
+      "currentOwner": "Content",
+      "nextOwner": "Content/Growth",
+      "updatedAt": "2026-03-13T23:57:08.725Z",
+      "createdAt": "2026-03-13T19:42:01.727Z",
+      "sourceSummary": "",
+      "gates": {
+        "research_packaged": true,
+        "human_approved_research": true,
+        "judge_passed": true,
+        "ops_shopify_verified": true,
+        "content_generated": false,
+        "content_buffer_drafted": false,
+        "ads_live": false
+      },
+      "judge": {},
+      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-stick-shift-girly-stick-shift-girly.png",
+      "printifyProductId": "69b4a42d655061d26209a75b",
+      "shopifyProductId": 8205438844985,
+      "shopifyHandle": "stick-shift-girly-tee",
+      "shopifyVerdict": "verified_exact",
+      "approvalSource": "research",
+      "phraseRecordStatus": "approved",
+      "desiredCollections": [
+        {
+          "source": "approval",
+          "title": "All Tees",
+          "handle": "all-tees",
+          "collectionId": 466115428409
+        },
+        {
+          "source": "approval",
+          "title": "New Arrivals",
+          "handle": "new-arrivals",
+          "collectionId": 466115493945
+        }
+      ],
+      "pipelineStage": "shopify_verified",
+      "dedupeResult": "already_exists_same_phrase"
+    },
     {
       "phraseId": "phr-i-can-drive-stick",
       "phrase": "i can drive stick",
@@ -2243,96 +2333,6 @@
       "dedupeResult": "clear"
     },
     {
-      "phraseId": "phr-i-ate-like-a-pound-of-baby-carrots-and-now-i-feel-funny",
-      "phrase": "i ate like a // pound of // baby carrots // and now i // feel funny",
-      "status": "asset",
-      "statusLabel": "Asset ready",
-      "lane": "asset",
-      "currentOwner": "Ops (asset)",
-      "nextOwner": "Printify",
-      "updatedAt": "2026-03-13T19:59:50.140Z",
-      "createdAt": "2026-03-13T19:59:05.410Z",
-      "sourceSummary": "",
-      "gates": {
-        "research_packaged": true,
-        "human_approved_research": true,
-        "judge_passed": false,
-        "ops_shopify_verified": false,
-        "content_generated": false,
-        "content_buffer_drafted": false,
-        "ads_live": false
-      },
-      "judge": {},
-      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-i-ate-like-a-pound-of-baby-carrots-and-now-i-feel-funny-i-ate-like-a-pound-of-baby-carrots-and-now-i-feel-funny.png",
-      "printifyProductId": null,
-      "shopifyProductId": null,
-      "shopifyHandle": null,
-      "shopifyVerdict": null,
-      "approvalSource": "research",
-      "phraseRecordStatus": "approved",
-      "desiredCollections": [
-        {
-          "source": "approval",
-          "title": "All Tees",
-          "handle": "all-tees",
-          "collectionId": 466115428409
-        },
-        {
-          "source": "approval",
-          "title": "New Arrivals",
-          "handle": "new-arrivals",
-          "collectionId": 466115493945
-        }
-      ],
-      "pipelineStage": "preflight_passed",
-      "dedupeResult": "clear"
-    },
-    {
-      "phraseId": "phr-stick-shift-girly",
-      "phrase": "stick shift girly",
-      "status": "asset",
-      "statusLabel": "Asset ready",
-      "lane": "asset",
-      "currentOwner": "Ops (asset)",
-      "nextOwner": "Printify",
-      "updatedAt": "2026-03-13T19:59:46.467Z",
-      "createdAt": "2026-03-13T19:42:01.727Z",
-      "sourceSummary": "",
-      "gates": {
-        "research_packaged": true,
-        "human_approved_research": true,
-        "judge_passed": false,
-        "ops_shopify_verified": false,
-        "content_generated": false,
-        "content_buffer_drafted": false,
-        "ads_live": false
-      },
-      "judge": {},
-      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-stick-shift-girly-stick-shift-girly.png",
-      "printifyProductId": null,
-      "shopifyProductId": null,
-      "shopifyHandle": null,
-      "shopifyVerdict": null,
-      "approvalSource": "research",
-      "phraseRecordStatus": "approved",
-      "desiredCollections": [
-        {
-          "source": "approval",
-          "title": "All Tees",
-          "handle": "all-tees",
-          "collectionId": 466115428409
-        },
-        {
-          "source": "approval",
-          "title": "New Arrivals",
-          "handle": "new-arrivals",
-          "collectionId": 466115493945
-        }
-      ],
-      "pipelineStage": "preflight_passed",
-      "dedupeResult": "clear"
-    },
-    {
       "phraseId": "phr-0046",
       "phrase": "low maintenance high consequence",
       "status": "live",
@@ -2552,6 +2552,6 @@
     }
   ],
   "mode": "static-export",
-  "sourceHash": "d60c3486fe38ebd9c4a86133c39a2e6a41c9eecf9bf2741ecd61962764d9c3a7",
-  "generatedAt": "2026-03-13T21:54:51.962Z"
+  "sourceHash": "eec4d5f5bdc942a390ee8948add95e5265f65a8472b34bae0faf21b5b89568b4",
+  "generatedAt": "2026-03-13T23:57:29.176Z"
 }
