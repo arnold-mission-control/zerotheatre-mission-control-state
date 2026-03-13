@@ -12,7 +12,7 @@ jobs:
     
     steps:
       - name: Sync live state from workspace
-        shell: pwsh
+        shell: powershell
         run: |
           cd C:\Users\black\.openclaw\workspace\mission-control
           $env:GH_REPO = 'arnold-mission-control/zerotheatre-mission-control-state'
@@ -21,7 +21,7 @@ jobs:
         
       - name: Report status
         if: always()
-        shell: pwsh
+        shell: powershell
         run: |
           $statusPath = "C:\Users\black\.openclaw\workspace\mission-control\data\live-state-sync.json"
           if (Test-Path $statusPath) {
