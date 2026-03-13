@@ -1,0 +1,35 @@
+name: Sync Mission Control Live State
+
+on:
+  schedule:
+    # Every 5 minutes
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: self-hosted
+    
+    steps:
+      - name: Sync live state from workspace
+        shell: pwsh
+        run: |
+          cd C:\Users\black\.openclaw\workspace\mission-control
+          $env:GH_REPO = 'arnold-mission-control/zerotheatre-mission-control-state'
+          $env:GH_BRANCH = 'main'
+          node scripts/sync-live-state.mjs --quiet
+        
+      - name: Report status
+        if: always()
+        shell: pwsh
+        run: |
+          $statusPath = "C:\Users\black\.openclaw\workspace\mission-control\data\live-state-sync.json"
+          if (Test-Path $statusPath) {
+            $status = Get-Content $statusPath -Raw | ConvertFrom-Json
+            Write-Host "Last sync: $($status.lastAttemptAt)"
+            Write-Host "Summary: $($status.lastResult.summary)"
+            if (-not $status.lastResult.ok) {
+              Write-Error "Sync failed: $($status.lastResult.errors -join ', ')"
+              exit 1
+            }
+          }
