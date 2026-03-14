@@ -1,33 +1,708 @@
 {
   "summary": {
-    "totalPhrases": 57,
-    "backlog": 0,
-    "assetReady": 7,
+    "totalPhrases": 24,
+    "backlog": 1,
+    "assetReady": 0,
     "printify": 0,
     "shopify": 0,
-    "live": 50,
-    "blockers": 0,
-    "inProduction": 7,
+    "live": 22,
+    "blockers": 1,
+    "inProduction": 0,
     "stageCounts": {
-      "backlog": 0,
-      "asset": 7,
+      "backlog": 1,
+      "asset": 0,
       "printify": 0,
       "shopify": 0,
-      "live": 50,
-      "blocked": 0
+      "live": 22,
+      "blocked": 1
     }
   },
   "items": [
     {
-      "phraseId": "phr-i-ate-like-a-pound-of-baby-carrots-and-now-i-feel-funny",
-      "phrase": "i ate like a // pound of // baby carrots // and now i // feel funny",
-      "status": "asset",
-      "statusLabel": "Asset ready",
-      "lane": "asset",
-      "currentOwner": "Ops (asset)",
-      "nextOwner": "Printify",
-      "updatedAt": "2026-03-13T23:57:25.941Z",
-      "createdAt": "2026-03-13T19:59:05.410Z",
+      "phraseId": "phr-philosophically-unstable",
+      "phrase": "philosophically unstable",
+      "status": "live",
+      "statusLabel": "Live on site",
+      "lane": "live",
+      "currentOwner": "Content",
+      "nextOwner": "Content/Growth",
+      "updatedAt": "2026-03-14T00:45:06.166Z",
+      "createdAt": "2026-03-14T00:44:07.530Z",
+      "sourceSummary": "",
+      "gates": {
+        "research_packaged": true,
+        "human_approved_research": true,
+        "judge_passed": true,
+        "ops_shopify_verified": true,
+        "content_generated": false,
+        "content_buffer_drafted": false,
+        "ads_live": false
+      },
+      "judge": {},
+      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-philosophically-unstable-philosophically-unstable.png",
+      "printifyProductId": "69b4af5cef0503f1a502cc08",
+      "shopifyProductId": 8205475053625,
+      "shopifyHandle": "philosophically-unstable-tee",
+      "shopifyVerdict": "verified_exact",
+      "approvalSource": "research",
+      "phraseRecordStatus": "approved",
+      "desiredCollections": [
+        {
+          "source": "approval",
+          "title": "All Tees",
+          "handle": "all-tees",
+          "collectionId": 466115428409
+        },
+        {
+          "source": "approval",
+          "title": "New Arrivals",
+          "handle": "new-arrivals",
+          "collectionId": 466115493945
+        }
+      ],
+      "pipelineStage": "shopify_verified",
+      "dedupeResult": "already_exists_same_phrase"
+    },
+    {
+      "phraseId": "phr-lucky-to-meet-you",
+      "phrase": "LUCKY TO MEET YOU",
+      "status": "live",
+      "statusLabel": "Live on site",
+      "lane": "live",
+      "currentOwner": "Content",
+      "nextOwner": "Content/Growth",
+      "updatedAt": "2026-03-14T00:44:07.468Z",
+      "createdAt": "2026-03-14T00:43:06.347Z",
+      "sourceSummary": "",
+      "gates": {
+        "research_packaged": true,
+        "human_approved_research": true,
+        "judge_passed": true,
+        "ops_shopify_verified": true,
+        "content_generated": false,
+        "content_buffer_drafted": false,
+        "ads_live": false
+      },
+      "judge": {},
+      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-lucky-to-meet-you-lucky-to-meet-you.png",
+      "printifyProductId": "69b4af1fdc49b25f9c0625f7",
+      "shopifyProductId": 8205474267193,
+      "shopifyHandle": "lucky-to-meet-you-tee",
+      "shopifyVerdict": "verified_exact",
+      "approvalSource": "research",
+      "phraseRecordStatus": "approved",
+      "desiredCollections": [
+        {
+          "source": "approval",
+          "title": "All Tees",
+          "handle": "all-tees",
+          "collectionId": 466115428409
+        },
+        {
+          "source": "approval",
+          "title": "New Arrivals",
+          "handle": "new-arrivals",
+          "collectionId": 466115493945
+        }
+      ],
+      "pipelineStage": "shopify_verified",
+      "dedupeResult": "already_exists_same_phrase"
+    },
+    {
+      "phraseId": "phr-unhappy-happy-to-be-alive",
+      "phrase": "unhappy/happy to be alive",
+      "status": "live",
+      "statusLabel": "Live on site",
+      "lane": "live",
+      "currentOwner": "Content",
+      "nextOwner": "Content/Growth",
+      "updatedAt": "2026-03-14T00:43:06.266Z",
+      "createdAt": "2026-03-14T00:42:20.323Z",
+      "sourceSummary": "",
+      "gates": {
+        "research_packaged": true,
+        "human_approved_research": true,
+        "judge_passed": true,
+        "ops_shopify_verified": true,
+        "content_generated": false,
+        "content_buffer_drafted": false,
+        "ads_live": false
+      },
+      "judge": {},
+      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-unhappy-happy-to-be-alive-unhappy-happy-to-be-alive.png",
+      "printifyProductId": "69b4aef12defaed0b207faff",
+      "shopifyProductId": 8205473546297,
+      "shopifyHandle": "unhappy-happy-to-be-alive-tee",
+      "shopifyVerdict": "verified_exact",
+      "approvalSource": "research",
+      "phraseRecordStatus": "approved",
+      "desiredCollections": [
+        {
+          "source": "approval",
+          "title": "All Tees",
+          "handle": "all-tees",
+          "collectionId": 466115428409
+        },
+        {
+          "source": "approval",
+          "title": "New Arrivals",
+          "handle": "new-arrivals",
+          "collectionId": 466115493945
+        }
+      ],
+      "pipelineStage": "shopify_verified",
+      "dedupeResult": "already_exists_same_phrase"
+    },
+    {
+      "phraseId": "phr-finite-existence",
+      "phrase": "finite existence",
+      "status": "live",
+      "statusLabel": "Live on site",
+      "lane": "live",
+      "currentOwner": "Content",
+      "nextOwner": "Content/Growth",
+      "updatedAt": "2026-03-14T00:42:20.254Z",
+      "createdAt": "2026-03-14T00:41:31.688Z",
+      "sourceSummary": "",
+      "gates": {
+        "research_packaged": true,
+        "human_approved_research": true,
+        "judge_passed": true,
+        "ops_shopify_verified": true,
+        "content_generated": false,
+        "content_buffer_drafted": false,
+        "ads_live": false
+      },
+      "judge": {},
+      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-finite-existence-finite-existence.png",
+      "printifyProductId": "69b4aec0a58e59e12f0ce983",
+      "shopifyProductId": 8205472989241,
+      "shopifyHandle": "finite-existence-tee",
+      "shopifyVerdict": "verified_exact",
+      "approvalSource": "research",
+      "phraseRecordStatus": "approved",
+      "desiredCollections": [
+        {
+          "source": "approval",
+          "title": "All Tees",
+          "handle": "all-tees",
+          "collectionId": 466115428409
+        },
+        {
+          "source": "approval",
+          "title": "New Arrivals",
+          "handle": "new-arrivals",
+          "collectionId": 466115493945
+        }
+      ],
+      "pipelineStage": "shopify_verified",
+      "dedupeResult": "already_exists_same_phrase"
+    },
+    {
+      "phraseId": "phr-havent-cried-in-a-while",
+      "phrase": "haven't cried in a while",
+      "status": "live",
+      "statusLabel": "Live on site",
+      "lane": "live",
+      "currentOwner": "Content",
+      "nextOwner": "Content/Growth",
+      "updatedAt": "2026-03-14T00:41:31.628Z",
+      "createdAt": "2026-03-14T00:40:39.409Z",
+      "sourceSummary": "",
+      "gates": {
+        "research_packaged": true,
+        "human_approved_research": true,
+        "judge_passed": true,
+        "ops_shopify_verified": true,
+        "content_generated": false,
+        "content_buffer_drafted": false,
+        "ads_live": false
+      },
+      "judge": {},
+      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-havent-cried-in-a-while-havent-cried-in-a-while.png",
+      "printifyProductId": "69b4ae8d7de848fda20f9264",
+      "shopifyProductId": 8205472464953,
+      "shopifyHandle": "havent-cried-in-a-while-tee",
+      "shopifyVerdict": "verified_exact",
+      "approvalSource": "research",
+      "phraseRecordStatus": "approved",
+      "desiredCollections": [
+        {
+          "source": "approval",
+          "title": "All Tees",
+          "handle": "all-tees",
+          "collectionId": 466115428409
+        },
+        {
+          "source": "approval",
+          "title": "New Arrivals",
+          "handle": "new-arrivals",
+          "collectionId": 466115493945
+        }
+      ],
+      "pipelineStage": "shopify_verified",
+      "dedupeResult": "already_exists_same_phrase"
+    },
+    {
+      "phraseId": "phr-its-back-on-my-mind",
+      "phrase": "its back on my mind",
+      "status": "live",
+      "statusLabel": "Live on site",
+      "lane": "live",
+      "currentOwner": "Content",
+      "nextOwner": "Content/Growth",
+      "updatedAt": "2026-03-14T00:40:39.331Z",
+      "createdAt": "2026-03-14T00:39:50.365Z",
+      "sourceSummary": "",
+      "gates": {
+        "research_packaged": true,
+        "human_approved_research": true,
+        "judge_passed": true,
+        "ops_shopify_verified": true,
+        "content_generated": false,
+        "content_buffer_drafted": false,
+        "ads_live": false
+      },
+      "judge": {},
+      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-its-back-on-my-mind-its-back-on-my-mind.png",
+      "printifyProductId": "69b4ae5b9bc18531810d1e2b",
+      "shopifyProductId": 8205471973433,
+      "shopifyHandle": "its-back-on-my-mind-tee",
+      "shopifyVerdict": "verified_exact",
+      "approvalSource": "research",
+      "phraseRecordStatus": "approved",
+      "desiredCollections": [
+        {
+          "source": "approval",
+          "title": "All Tees",
+          "handle": "all-tees",
+          "collectionId": 466115428409
+        },
+        {
+          "source": "approval",
+          "title": "New Arrivals",
+          "handle": "new-arrivals",
+          "collectionId": 466115493945
+        }
+      ],
+      "pipelineStage": "shopify_verified",
+      "dedupeResult": "already_exists_same_phrase"
+    },
+    {
+      "phraseId": "phr-its-worse-than-i-thought",
+      "phrase": "its worse than i thought",
+      "status": "live",
+      "statusLabel": "Live on site",
+      "lane": "live",
+      "currentOwner": "Content",
+      "nextOwner": "Content/Growth",
+      "updatedAt": "2026-03-14T00:39:50.289Z",
+      "createdAt": "2026-03-14T00:39:03.993Z",
+      "sourceSummary": "",
+      "gates": {
+        "research_packaged": true,
+        "human_approved_research": true,
+        "judge_passed": true,
+        "ops_shopify_verified": true,
+        "content_generated": false,
+        "content_buffer_drafted": false,
+        "ads_live": false
+      },
+      "judge": {},
+      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-its-worse-than-i-thought-its-worse-than-i-thought.png",
+      "printifyProductId": "69b4ae2ddc49b25f9c0625c2",
+      "shopifyProductId": 8205471416377,
+      "shopifyHandle": "its-worse-than-i-thought-tee",
+      "shopifyVerdict": "verified_exact",
+      "approvalSource": "research",
+      "phraseRecordStatus": "approved",
+      "desiredCollections": [
+        {
+          "source": "approval",
+          "title": "All Tees",
+          "handle": "all-tees",
+          "collectionId": 466115428409
+        },
+        {
+          "source": "approval",
+          "title": "New Arrivals",
+          "handle": "new-arrivals",
+          "collectionId": 466115493945
+        }
+      ],
+      "pipelineStage": "shopify_verified",
+      "dedupeResult": "already_exists_same_phrase"
+    },
+    {
+      "phraseId": "phr-im-not-happy",
+      "phrase": "im not happy",
+      "status": "live",
+      "statusLabel": "Live on site",
+      "lane": "live",
+      "currentOwner": "Content",
+      "nextOwner": "Content/Growth",
+      "updatedAt": "2026-03-14T00:39:03.921Z",
+      "createdAt": "2026-03-14T00:38:18.217Z",
+      "sourceSummary": "",
+      "gates": {
+        "research_packaged": true,
+        "human_approved_research": true,
+        "judge_passed": true,
+        "ops_shopify_verified": true,
+        "content_generated": false,
+        "content_buffer_drafted": false,
+        "ads_live": false
+      },
+      "judge": {},
+      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-im-not-happy-im-not-happy.png",
+      "printifyProductId": "69b4adff9bc18531810d1e15",
+      "shopifyProductId": 8205470793785,
+      "shopifyHandle": "im-not-happy-tee",
+      "shopifyVerdict": "verified_exact",
+      "approvalSource": "research",
+      "phraseRecordStatus": "approved",
+      "desiredCollections": [
+        {
+          "source": "approval",
+          "title": "All Tees",
+          "handle": "all-tees",
+          "collectionId": 466115428409
+        },
+        {
+          "source": "approval",
+          "title": "New Arrivals",
+          "handle": "new-arrivals",
+          "collectionId": 466115493945
+        }
+      ],
+      "pipelineStage": "shopify_verified",
+      "dedupeResult": "already_exists_same_phrase"
+    },
+    {
+      "phraseId": "phr-sad-boi-gurl",
+      "phrase": "sad boi/gurl",
+      "status": "live",
+      "statusLabel": "Live on site",
+      "lane": "live",
+      "currentOwner": "Content",
+      "nextOwner": "Content/Growth",
+      "updatedAt": "2026-03-14T00:38:18.158Z",
+      "createdAt": "2026-03-14T00:37:34.744Z",
+      "sourceSummary": "",
+      "gates": {
+        "research_packaged": true,
+        "human_approved_research": true,
+        "judge_passed": true,
+        "ops_shopify_verified": true,
+        "content_generated": false,
+        "content_buffer_drafted": false,
+        "ads_live": false
+      },
+      "judge": {},
+      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-sad-boi-gurl-sad-boi-gurl.png",
+      "printifyProductId": "69b4add345496df7e30e8696",
+      "shopifyProductId": 8205470171193,
+      "shopifyHandle": "sad-boi-gurl-tee",
+      "shopifyVerdict": "verified_exact",
+      "approvalSource": "research",
+      "phraseRecordStatus": "approved",
+      "desiredCollections": [
+        {
+          "source": "approval",
+          "title": "All Tees",
+          "handle": "all-tees",
+          "collectionId": 466115428409
+        },
+        {
+          "source": "approval",
+          "title": "New Arrivals",
+          "handle": "new-arrivals",
+          "collectionId": 466115493945
+        }
+      ],
+      "pipelineStage": "shopify_verified",
+      "dedupeResult": "already_exists_same_phrase"
+    },
+    {
+      "phraseId": "phr-remember-where-i-came-from",
+      "phrase": "remember where i came from",
+      "status": "live",
+      "statusLabel": "Live on site",
+      "lane": "live",
+      "currentOwner": "Content",
+      "nextOwner": "Content/Growth",
+      "updatedAt": "2026-03-14T00:37:34.679Z",
+      "createdAt": "2026-03-14T00:36:49.996Z",
+      "sourceSummary": "",
+      "gates": {
+        "research_packaged": true,
+        "human_approved_research": true,
+        "judge_passed": true,
+        "ops_shopify_verified": true,
+        "content_generated": false,
+        "content_buffer_drafted": false,
+        "ads_live": false
+      },
+      "judge": {},
+      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-remember-where-i-came-from-remember-where-i-came-from.png",
+      "printifyProductId": "69b4ada72c9d2dab420e86e6",
+      "shopifyProductId": 8205469646905,
+      "shopifyHandle": "remember-where-i-came-from-tee",
+      "shopifyVerdict": "verified_exact",
+      "approvalSource": "research",
+      "phraseRecordStatus": "approved",
+      "desiredCollections": [
+        {
+          "source": "approval",
+          "title": "All Tees",
+          "handle": "all-tees",
+          "collectionId": 466115428409
+        },
+        {
+          "source": "approval",
+          "title": "New Arrivals",
+          "handle": "new-arrivals",
+          "collectionId": 466115493945
+        }
+      ],
+      "pipelineStage": "shopify_verified",
+      "dedupeResult": "already_exists_same_phrase"
+    },
+    {
+      "phraseId": "phr-they-never-wanted-us-to-win",
+      "phrase": "they never wanted us to win",
+      "status": "live",
+      "statusLabel": "Live on site",
+      "lane": "live",
+      "currentOwner": "Content",
+      "nextOwner": "Content/Growth",
+      "updatedAt": "2026-03-14T00:36:49.917Z",
+      "createdAt": "2026-03-14T00:36:05.563Z",
+      "sourceSummary": "",
+      "gates": {
+        "research_packaged": true,
+        "human_approved_research": true,
+        "judge_passed": true,
+        "ops_shopify_verified": true,
+        "content_generated": false,
+        "content_buffer_drafted": false,
+        "ads_live": false
+      },
+      "judge": {},
+      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-they-never-wanted-us-to-win-they-never-wanted-us-to-win.png",
+      "printifyProductId": "69b4ad7a9ca867d5fe0b15eb",
+      "shopifyProductId": 8205469057081,
+      "shopifyHandle": "they-never-wanted-us-to-win-tee",
+      "shopifyVerdict": "verified_exact",
+      "approvalSource": "research",
+      "phraseRecordStatus": "approved",
+      "desiredCollections": [
+        {
+          "source": "approval",
+          "title": "All Tees",
+          "handle": "all-tees",
+          "collectionId": 466115428409
+        },
+        {
+          "source": "approval",
+          "title": "New Arrivals",
+          "handle": "new-arrivals",
+          "collectionId": 466115493945
+        }
+      ],
+      "pipelineStage": "shopify_verified",
+      "dedupeResult": "already_exists_same_phrase"
+    },
+    {
+      "phraseId": "phr-im-a-creative-genius",
+      "phrase": "im a creative genius",
+      "status": "live",
+      "statusLabel": "Live on site",
+      "lane": "live",
+      "currentOwner": "Content",
+      "nextOwner": "Content/Growth",
+      "updatedAt": "2026-03-14T00:36:05.488Z",
+      "createdAt": "2026-03-14T00:35:21.916Z",
+      "sourceSummary": "",
+      "gates": {
+        "research_packaged": true,
+        "human_approved_research": true,
+        "judge_passed": true,
+        "ops_shopify_verified": true,
+        "content_generated": false,
+        "content_buffer_drafted": false,
+        "ads_live": false
+      },
+      "judge": {},
+      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-im-a-creative-genius-im-a-creative-genius.png",
+      "printifyProductId": "69b4ad4fa58e59e12f0ce943",
+      "shopifyProductId": 8205468467257,
+      "shopifyHandle": "im-a-creative-genius-tee",
+      "shopifyVerdict": "verified_exact",
+      "approvalSource": "research",
+      "phraseRecordStatus": "approved",
+      "desiredCollections": [
+        {
+          "source": "approval",
+          "title": "All Tees",
+          "handle": "all-tees",
+          "collectionId": 466115428409
+        },
+        {
+          "source": "approval",
+          "title": "New Arrivals",
+          "handle": "new-arrivals",
+          "collectionId": 466115493945
+        }
+      ],
+      "pipelineStage": "shopify_verified",
+      "dedupeResult": "already_exists_same_phrase"
+    },
+    {
+      "phraseId": "phr-we-both-matter-dont-we",
+      "phrase": "we both matter, don't we?",
+      "status": "live",
+      "statusLabel": "Live on site",
+      "lane": "live",
+      "currentOwner": "Content",
+      "nextOwner": "Content/Growth",
+      "updatedAt": "2026-03-14T00:35:21.863Z",
+      "createdAt": "2026-03-14T00:34:37.813Z",
+      "sourceSummary": "",
+      "gates": {
+        "research_packaged": true,
+        "human_approved_research": true,
+        "judge_passed": true,
+        "ops_shopify_verified": true,
+        "content_generated": false,
+        "content_buffer_drafted": false,
+        "ads_live": false
+      },
+      "judge": {},
+      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-we-both-matter-dont-we-we-both-matter-dont-we.png",
+      "printifyProductId": "69b4ad232d744e51f402c3d0",
+      "shopifyProductId": 8205467385913,
+      "shopifyHandle": "we-both-matter-dont-we-tee",
+      "shopifyVerdict": "verified_exact",
+      "approvalSource": "research",
+      "phraseRecordStatus": "approved",
+      "desiredCollections": [
+        {
+          "source": "approval",
+          "title": "All Tees",
+          "handle": "all-tees",
+          "collectionId": 466115428409
+        },
+        {
+          "source": "approval",
+          "title": "New Arrivals",
+          "handle": "new-arrivals",
+          "collectionId": 466115493945
+        }
+      ],
+      "pipelineStage": "shopify_verified",
+      "dedupeResult": "already_exists_same_phrase"
+    },
+    {
+      "phraseId": "phr-main-character",
+      "phrase": "\"main character\"",
+      "status": "live",
+      "statusLabel": "Live on site",
+      "lane": "live",
+      "currentOwner": "Content",
+      "nextOwner": "Content/Growth",
+      "updatedAt": "2026-03-14T00:34:37.746Z",
+      "createdAt": "2026-03-14T00:33:49.020Z",
+      "sourceSummary": "",
+      "gates": {
+        "research_packaged": true,
+        "human_approved_research": true,
+        "judge_passed": true,
+        "ops_shopify_verified": true,
+        "content_generated": false,
+        "content_buffer_drafted": false,
+        "ads_live": false
+      },
+      "judge": {},
+      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-main-character-main-character.png",
+      "printifyProductId": "69b4acf12c9d2dab420e86cf",
+      "shopifyProductId": 8205466304569,
+      "shopifyHandle": "main-character-tee",
+      "shopifyVerdict": "verified_exact",
+      "approvalSource": "research",
+      "phraseRecordStatus": "approved",
+      "desiredCollections": [
+        {
+          "source": "approval",
+          "title": "All Tees",
+          "handle": "all-tees",
+          "collectionId": 466115428409
+        },
+        {
+          "source": "approval",
+          "title": "New Arrivals",
+          "handle": "new-arrivals",
+          "collectionId": 466115493945
+        }
+      ],
+      "pipelineStage": "shopify_verified",
+      "dedupeResult": "already_exists_same_phrase"
+    },
+    {
+      "phraseId": "phr-dont-take-it-too-personal",
+      "phrase": "dont take it too personal",
+      "status": "live",
+      "statusLabel": "Live on site",
+      "lane": "live",
+      "currentOwner": "Content",
+      "nextOwner": "Content/Growth",
+      "updatedAt": "2026-03-14T00:33:48.949Z",
+      "createdAt": "2026-03-14T00:33:02.949Z",
+      "sourceSummary": "",
+      "gates": {
+        "research_packaged": true,
+        "human_approved_research": true,
+        "judge_passed": true,
+        "ops_shopify_verified": true,
+        "content_generated": false,
+        "content_buffer_drafted": false,
+        "ads_live": false
+      },
+      "judge": {},
+      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-dont-take-it-too-personal-dont-take-it-too-personal.png",
+      "printifyProductId": "69b4acc49ca867d5fe0b15c9",
+      "shopifyProductId": 8205465354297,
+      "shopifyHandle": "dont-take-it-too-personal-tee",
+      "shopifyVerdict": "verified_exact",
+      "approvalSource": "research",
+      "phraseRecordStatus": "approved",
+      "desiredCollections": [
+        {
+          "source": "approval",
+          "title": "All Tees",
+          "handle": "all-tees",
+          "collectionId": 466115428409
+        },
+        {
+          "source": "approval",
+          "title": "New Arrivals",
+          "handle": "new-arrivals",
+          "collectionId": 466115493945
+        }
+      ],
+      "pipelineStage": "shopify_verified",
+      "dedupeResult": "already_exists_same_phrase"
+    },
+    {
+      "phraseId": "phr-youre-doing-okay",
+      "phrase": "you're doing okay 🙂",
+      "status": "blocked",
+      "statusLabel": "Needs attention",
+      "lane": "blocked",
+      "currentOwner": "Ops/Judge",
+      "nextOwner": "Ops",
+      "updatedAt": "2026-03-14T00:33:02.881Z",
+      "createdAt": "2026-03-14T00:32:19.374Z",
       "sourceSummary": "",
       "gates": {
         "research_packaged": true,
@@ -39,7 +714,277 @@
         "ads_live": false
       },
       "judge": {},
-      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-i-ate-like-a-pound-of-baby-carrots-and-now-i-feel-funny-i-ate-like-a-pound-of-baby-carrots-and-now-i-feel-funny.png",
+      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-youre-doing-okay-youre-doing-okay.png",
+      "printifyProductId": "69b4ac98a58e59e12f0ce922",
+      "shopifyProductId": 8205463486521,
+      "shopifyHandle": "youre-doing-okay-🙂-tee",
+      "shopifyVerdict": "identity_conflict",
+      "approvalSource": "research",
+      "phraseRecordStatus": "approved",
+      "desiredCollections": [
+        {
+          "source": "approval",
+          "title": "All Tees",
+          "handle": "all-tees",
+          "collectionId": 466115428409
+        },
+        {
+          "source": "approval",
+          "title": "New Arrivals",
+          "handle": "new-arrivals",
+          "collectionId": 466115493945
+        }
+      ],
+      "pipelineStage": "manual_review_required",
+      "dedupeResult": "already_exists_same_phrase"
+    },
+    {
+      "phraseId": "phr-youre-the-only-one-of-you",
+      "phrase": "you're the only one (of you)",
+      "status": "live",
+      "statusLabel": "Live on site",
+      "lane": "live",
+      "currentOwner": "Content",
+      "nextOwner": "Content/Growth",
+      "updatedAt": "2026-03-14T00:32:19.308Z",
+      "createdAt": "2026-03-14T00:31:31.735Z",
+      "sourceSummary": "",
+      "gates": {
+        "research_packaged": true,
+        "human_approved_research": true,
+        "judge_passed": true,
+        "ops_shopify_verified": true,
+        "content_generated": false,
+        "content_buffer_drafted": false,
+        "ads_live": false
+      },
+      "judge": {},
+      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-youre-the-only-one-of-you-youre-the-only-one-of-you.png",
+      "printifyProductId": "69b4ac699ca867d5fe0b15b8",
+      "shopifyProductId": 8205462536249,
+      "shopifyHandle": "youre-the-only-one-of-you-tee",
+      "shopifyVerdict": "verified_exact",
+      "approvalSource": "research",
+      "phraseRecordStatus": "approved",
+      "desiredCollections": [
+        {
+          "source": "approval",
+          "title": "All Tees",
+          "handle": "all-tees",
+          "collectionId": 466115428409
+        },
+        {
+          "source": "approval",
+          "title": "New Arrivals",
+          "handle": "new-arrivals",
+          "collectionId": 466115493945
+        }
+      ],
+      "pipelineStage": "shopify_verified",
+      "dedupeResult": "already_exists_same_phrase"
+    },
+    {
+      "phraseId": "phr-money-dont-grow-on-trees-but-i-believe",
+      "phrase": "money don't grow on trees but i believe",
+      "status": "live",
+      "statusLabel": "Live on site",
+      "lane": "live",
+      "currentOwner": "Content",
+      "nextOwner": "Content/Growth",
+      "updatedAt": "2026-03-14T00:31:31.678Z",
+      "createdAt": "2026-03-14T00:30:42.336Z",
+      "sourceSummary": "",
+      "gates": {
+        "research_packaged": true,
+        "human_approved_research": true,
+        "judge_passed": true,
+        "ops_shopify_verified": true,
+        "content_generated": false,
+        "content_buffer_drafted": false,
+        "ads_live": false
+      },
+      "judge": {},
+      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-money-dont-grow-on-trees-but-i-believe-money-dont-grow-on-trees-but-i-believe.png",
+      "printifyProductId": "69b4ac38dc49b25f9c062559",
+      "shopifyProductId": 8205462044729,
+      "shopifyHandle": "money-dont-grow-on-trees-but-i-believe-tee",
+      "shopifyVerdict": "verified_exact",
+      "approvalSource": "research",
+      "phraseRecordStatus": "approved",
+      "desiredCollections": [
+        {
+          "source": "approval",
+          "title": "All Tees",
+          "handle": "all-tees",
+          "collectionId": 466115428409
+        },
+        {
+          "source": "approval",
+          "title": "New Arrivals",
+          "handle": "new-arrivals",
+          "collectionId": 466115493945
+        }
+      ],
+      "pipelineStage": "shopify_verified",
+      "dedupeResult": "already_exists_same_phrase"
+    },
+    {
+      "phraseId": "phr-its-better-than-i-thought",
+      "phrase": "its better than i thought",
+      "status": "live",
+      "statusLabel": "Live on site",
+      "lane": "live",
+      "currentOwner": "Content",
+      "nextOwner": "Content/Growth",
+      "updatedAt": "2026-03-14T00:30:42.257Z",
+      "createdAt": "2026-03-14T00:28:12.490Z",
+      "sourceSummary": "",
+      "gates": {
+        "research_packaged": true,
+        "human_approved_research": true,
+        "judge_passed": true,
+        "ops_shopify_verified": true,
+        "content_generated": false,
+        "content_buffer_drafted": false,
+        "ads_live": false
+      },
+      "judge": {},
+      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-its-better-than-i-thought-its-better-than-i-thought.png",
+      "printifyProductId": "69b4aba2cbc710beb00c0c1e",
+      "shopifyProductId": 8205461585977,
+      "shopifyHandle": "its-better-than-i-thought-tee",
+      "shopifyVerdict": "verified_exact",
+      "approvalSource": "research",
+      "phraseRecordStatus": "approved",
+      "desiredCollections": [
+        {
+          "source": "approval",
+          "title": "All Tees",
+          "handle": "all-tees",
+          "collectionId": 466115428409
+        },
+        {
+          "source": "approval",
+          "title": "New Arrivals",
+          "handle": "new-arrivals",
+          "collectionId": 466115493945
+        }
+      ],
+      "pipelineStage": "shopify_verified",
+      "dedupeResult": "already_exists_same_phrase"
+    },
+    {
+      "phraseId": "phr-whats-bothering-you",
+      "phrase": "whats bothering you?",
+      "status": "live",
+      "statusLabel": "Live on site",
+      "lane": "live",
+      "currentOwner": "Content",
+      "nextOwner": "Content/Growth",
+      "updatedAt": "2026-03-14T00:28:12.417Z",
+      "createdAt": "2026-03-14T00:27:23.513Z",
+      "sourceSummary": "",
+      "gates": {
+        "research_packaged": true,
+        "human_approved_research": true,
+        "judge_passed": true,
+        "ops_shopify_verified": true,
+        "content_generated": false,
+        "content_buffer_drafted": false,
+        "ads_live": false
+      },
+      "judge": {},
+      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-whats-bothering-you-whats-bothering-you.png",
+      "printifyProductId": "69b4ab70dc49b25f9c06252f",
+      "shopifyProductId": 8205460176953,
+      "shopifyHandle": "whats-bothering-you-tee",
+      "shopifyVerdict": "verified_exact",
+      "approvalSource": "research",
+      "phraseRecordStatus": "approved",
+      "desiredCollections": [
+        {
+          "source": "approval",
+          "title": "All Tees",
+          "handle": "all-tees",
+          "collectionId": 466115428409
+        },
+        {
+          "source": "approval",
+          "title": "New Arrivals",
+          "handle": "new-arrivals",
+          "collectionId": 466115493945
+        }
+      ],
+      "pipelineStage": "shopify_verified",
+      "dedupeResult": "already_exists_same_phrase"
+    },
+    {
+      "phraseId": "phr-myself-inc",
+      "phrase": "myself, inc.",
+      "status": "live",
+      "statusLabel": "Live on site",
+      "lane": "live",
+      "currentOwner": "Content",
+      "nextOwner": "Content/Growth",
+      "updatedAt": "2026-03-14T00:27:23.431Z",
+      "createdAt": "2026-03-14T00:26:35.924Z",
+      "sourceSummary": "",
+      "gates": {
+        "research_packaged": true,
+        "human_approved_research": true,
+        "judge_passed": true,
+        "ops_shopify_verified": true,
+        "content_generated": false,
+        "content_buffer_drafted": false,
+        "ads_live": false
+      },
+      "judge": {},
+      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-myself-inc-myself-inc.png",
+      "printifyProductId": "69b4ab419bc18531810d1d96",
+      "shopifyProductId": 8205459619897,
+      "shopifyHandle": "myself-inc-tee",
+      "shopifyVerdict": "verified_exact",
+      "approvalSource": "research",
+      "phraseRecordStatus": "approved",
+      "desiredCollections": [
+        {
+          "source": "approval",
+          "title": "All Tees",
+          "handle": "all-tees",
+          "collectionId": 466115428409
+        },
+        {
+          "source": "approval",
+          "title": "New Arrivals",
+          "handle": "new-arrivals",
+          "collectionId": 466115493945
+        }
+      ],
+      "pipelineStage": "shopify_verified",
+      "dedupeResult": "already_exists_same_phrase"
+    },
+    {
+      "phraseId": "phr-you-inc",
+      "phrase": "you, inc.",
+      "status": "backlog",
+      "statusLabel": "Research / backlog",
+      "lane": "backlog",
+      "currentOwner": "Research",
+      "nextOwner": "Ops",
+      "updatedAt": "2026-03-14T00:26:35.072Z",
+      "createdAt": "2026-03-14T00:26:35.009Z",
+      "sourceSummary": "",
+      "gates": {
+        "research_packaged": false,
+        "human_approved_research": false,
+        "judge_passed": false,
+        "ops_shopify_verified": false,
+        "content_generated": false,
+        "content_buffer_drafted": false,
+        "ads_live": false
+      },
+      "judge": {},
+      "assetPath": null,
       "printifyProductId": null,
       "shopifyProductId": null,
       "shopifyHandle": null,
@@ -60,2498 +1005,101 @@
           "collectionId": 466115493945
         }
       ],
-      "pipelineStage": "preflight_passed",
-      "dedupeResult": "clear"
-    },
-    {
-      "phraseId": "phr-stick-shift-girly",
-      "phrase": "stick shift girly",
-      "status": "live",
-      "statusLabel": "Live on site",
-      "lane": "live",
-      "currentOwner": "Content",
-      "nextOwner": "Content/Growth",
-      "updatedAt": "2026-03-13T23:57:08.725Z",
-      "createdAt": "2026-03-13T19:42:01.727Z",
-      "sourceSummary": "",
-      "gates": {
-        "research_packaged": true,
-        "human_approved_research": true,
-        "judge_passed": true,
-        "ops_shopify_verified": true,
-        "content_generated": false,
-        "content_buffer_drafted": false,
-        "ads_live": false
-      },
-      "judge": {},
-      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-stick-shift-girly-stick-shift-girly.png",
-      "printifyProductId": "69b4a42d655061d26209a75b",
-      "shopifyProductId": 8205438844985,
-      "shopifyHandle": "stick-shift-girly-tee",
-      "shopifyVerdict": "verified_exact",
-      "approvalSource": "research",
-      "phraseRecordStatus": "approved",
-      "desiredCollections": [
-        {
-          "source": "approval",
-          "title": "All Tees",
-          "handle": "all-tees",
-          "collectionId": 466115428409
-        },
-        {
-          "source": "approval",
-          "title": "New Arrivals",
-          "handle": "new-arrivals",
-          "collectionId": 466115493945
-        }
-      ],
-      "pipelineStage": "shopify_verified",
-      "dedupeResult": "already_exists_same_phrase"
-    },
-    {
-      "phraseId": "phr-i-can-drive-stick",
-      "phrase": "i can drive stick",
-      "status": "live",
-      "statusLabel": "Live on site",
-      "lane": "live",
-      "currentOwner": "Content",
-      "nextOwner": "Content/Growth",
-      "updatedAt": "2026-03-13T21:48:24.643Z",
-      "createdAt": "2026-03-13T19:41:41.333Z",
-      "sourceSummary": "",
-      "gates": {
-        "research_packaged": true,
-        "human_approved_research": true,
-        "judge_passed": true,
-        "ops_shopify_verified": true,
-        "content_generated": false,
-        "content_buffer_drafted": false,
-        "ads_live": false
-      },
-      "judge": {},
-      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-i-can-drive-stick-i-can-drive-stick.png",
-      "printifyProductId": "69b4796c2d744e51f402b9fb",
-      "shopifyProductId": 8205314719801,
-      "shopifyHandle": "i-can-drive-stick-tee",
-      "shopifyVerdict": "verified_exact",
-      "approvalSource": "research",
-      "phraseRecordStatus": "approved",
-      "desiredCollections": [
-        {
-          "source": "approval",
-          "title": "All Tees",
-          "handle": "all-tees",
-          "collectionId": 466115428409
-        },
-        {
-          "source": "approval",
-          "title": "New Arrivals",
-          "handle": "new-arrivals",
-          "collectionId": 466115493945
-        }
-      ],
-      "pipelineStage": "shopify_verified",
-      "dedupeResult": "already_exists_same_phrase"
-    },
-    {
-      "phraseId": "phr-i-got-you-girl",
-      "phrase": "i got you girl",
-      "status": "live",
-      "statusLabel": "Live on site",
-      "lane": "live",
-      "currentOwner": "Content",
-      "nextOwner": "Content/Growth",
-      "updatedAt": "2026-03-13T21:48:23.427Z",
-      "createdAt": "2026-03-13T19:41:35.945Z",
-      "sourceSummary": "",
-      "gates": {
-        "research_packaged": true,
-        "human_approved_research": true,
-        "judge_passed": true,
-        "ops_shopify_verified": true,
-        "content_generated": false,
-        "content_buffer_drafted": false,
-        "ads_live": false
-      },
-      "judge": {},
-      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-i-got-you-girl-i-got-you-girl.png",
-      "printifyProductId": "69b472486559c5c5d5033bc5",
-      "shopifyProductId": 8205293289529,
-      "shopifyHandle": "i-got-you-girl-tee",
-      "shopifyVerdict": "verified_exact",
-      "approvalSource": "research",
-      "phraseRecordStatus": "approved",
-      "desiredCollections": [
-        {
-          "source": "approval",
-          "title": "All Tees",
-          "handle": "all-tees",
-          "collectionId": 466115428409
-        },
-        {
-          "source": "approval",
-          "title": "New Arrivals",
-          "handle": "new-arrivals",
-          "collectionId": 466115493945
-        }
-      ],
-      "pipelineStage": "shopify_verified",
-      "dedupeResult": "already_exists_same_phrase"
-    },
-    {
-      "phraseId": "phr-otrovert",
-      "phrase": "otrovert",
-      "status": "live",
-      "statusLabel": "Live on site",
-      "lane": "live",
-      "currentOwner": "Content",
-      "nextOwner": "Content/Growth",
-      "updatedAt": "2026-03-13T21:48:22.199Z",
-      "createdAt": "2026-03-13T19:41:30.633Z",
-      "sourceSummary": "",
-      "gates": {
-        "research_packaged": true,
-        "human_approved_research": true,
-        "judge_passed": true,
-        "ops_shopify_verified": true,
-        "content_generated": false,
-        "content_buffer_drafted": false,
-        "ads_live": false
-      },
-      "judge": {},
-      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-otrovert-otrovert.png",
-      "printifyProductId": "69b47168d654624ccc01530f",
-      "shopifyProductId": 8205292339257,
-      "shopifyHandle": "otrovert-tee",
-      "shopifyVerdict": "verified_exact",
-      "approvalSource": "research",
-      "phraseRecordStatus": "approved",
-      "desiredCollections": [
-        {
-          "source": "approval",
-          "title": "All Tees",
-          "handle": "all-tees",
-          "collectionId": 466115428409
-        },
-        {
-          "source": "approval",
-          "title": "New Arrivals",
-          "handle": "new-arrivals",
-          "collectionId": 466115493945
-        }
-      ],
-      "pipelineStage": "shopify_verified",
-      "dedupeResult": "already_exists_same_phrase"
-    },
-    {
-      "phraseId": "phr-are-u-nervous",
-      "phrase": "are u nervous?",
-      "status": "live",
-      "statusLabel": "Live on site",
-      "lane": "live",
-      "currentOwner": "Content",
-      "nextOwner": "Content/Growth",
-      "updatedAt": "2026-03-13T21:48:20.952Z",
-      "createdAt": "2026-03-13T19:41:25.189Z",
-      "sourceSummary": "",
-      "gates": {
-        "research_packaged": true,
-        "human_approved_research": true,
-        "judge_passed": true,
-        "ops_shopify_verified": true,
-        "content_generated": false,
-        "content_buffer_drafted": false,
-        "ads_live": false
-      },
-      "judge": {},
-      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-are-u-nervous-are-u-nervous.png",
-      "printifyProductId": "69b4708d088aaeff430ab395",
-      "shopifyProductId": 8205288833081,
-      "shopifyHandle": "are-u-nervous-tee",
-      "shopifyVerdict": "verified_exact",
-      "approvalSource": "research",
-      "phraseRecordStatus": "approved",
-      "desiredCollections": [
-        {
-          "source": "approval",
-          "title": "All Tees",
-          "handle": "all-tees",
-          "collectionId": 466115428409
-        },
-        {
-          "source": "approval",
-          "title": "New Arrivals",
-          "handle": "new-arrivals",
-          "collectionId": 466115493945
-        }
-      ],
-      "pipelineStage": "shopify_verified",
-      "dedupeResult": "already_exists_same_phrase"
-    },
-    {
-      "phraseId": "phr-feed-my-delulu",
-      "phrase": "feed my delulu",
-      "status": "live",
-      "statusLabel": "Live on site",
-      "lane": "live",
-      "currentOwner": "Content",
-      "nextOwner": "Content/Growth",
-      "updatedAt": "2026-03-13T21:48:19.696Z",
-      "createdAt": "2026-03-13T19:38:01.446Z",
-      "sourceSummary": "",
-      "gates": {
-        "research_packaged": true,
-        "human_approved_research": true,
-        "judge_passed": true,
-        "ops_shopify_verified": true,
-        "content_generated": false,
-        "content_buffer_drafted": false,
-        "ads_live": false
-      },
-      "judge": {},
-      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-feed-my-delulu-feed-my-delulu.png",
-      "printifyProductId": "69b467e214fd977961079556",
-      "shopifyProductId": 8205262225465,
-      "shopifyHandle": "feed-my-delulu-tee",
-      "shopifyVerdict": "verified_exact",
-      "approvalSource": "research",
-      "phraseRecordStatus": "approved",
-      "desiredCollections": [
-        {
-          "source": "approval",
-          "title": "All Tees",
-          "handle": "all-tees",
-          "collectionId": 466115428409
-        },
-        {
-          "source": "approval",
-          "title": "New Arrivals",
-          "handle": "new-arrivals",
-          "collectionId": 466115493945
-        }
-      ],
-      "pipelineStage": "shopify_verified",
-      "dedupeResult": "already_exists_same_phrase"
-    },
-    {
-      "phraseId": "phr-matcha-male",
-      "phrase": "matcha male",
-      "status": "live",
-      "statusLabel": "Live on site",
-      "lane": "live",
-      "currentOwner": "Content",
-      "nextOwner": "Content/Growth",
-      "updatedAt": "2026-03-13T21:48:18.388Z",
-      "createdAt": "2026-03-13T19:37:53.570Z",
-      "sourceSummary": "",
-      "gates": {
-        "research_packaged": true,
-        "human_approved_research": true,
-        "judge_passed": true,
-        "ops_shopify_verified": true,
-        "content_generated": false,
-        "content_buffer_drafted": false,
-        "ads_live": false
-      },
-      "judge": {},
-      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-matcha-male-matcha-male.png",
-      "printifyProductId": "69b467a82c9d2dab420e79b6",
-      "shopifyProductId": 8205261439033,
-      "shopifyHandle": "matcha-male-tee",
-      "shopifyVerdict": "verified_exact",
-      "approvalSource": "research",
-      "phraseRecordStatus": "approved",
-      "desiredCollections": [
-        {
-          "source": "approval",
-          "title": "All Tees",
-          "handle": "all-tees",
-          "collectionId": 466115428409
-        },
-        {
-          "source": "approval",
-          "title": "New Arrivals",
-          "handle": "new-arrivals",
-          "collectionId": 466115493945
-        }
-      ],
-      "pipelineStage": "shopify_verified",
-      "dedupeResult": "already_exists_same_phrase"
-    },
-    {
-      "phraseId": "phr-ztv2-socially-jet-lagged",
-      "phrase": "socially jet lagged",
-      "status": "live",
-      "statusLabel": "Live on site",
-      "lane": "live",
-      "currentOwner": "Content",
-      "nextOwner": "Content/Growth",
-      "updatedAt": "2026-03-13T21:48:17.054Z",
-      "createdAt": "2026-03-13T14:54:31.618Z",
-      "sourceSummary": "",
-      "gates": {
-        "research_packaged": true,
-        "human_approved_research": true,
-        "judge_passed": true,
-        "ops_shopify_verified": true,
-        "content_generated": false,
-        "content_buffer_drafted": false,
-        "ads_live": false
-      },
-      "judge": {},
-      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-ztv2-socially-jet-lagged-socially-jet-lagged.png",
-      "printifyProductId": "69b4254b208f8868dc0cdb79",
-      "shopifyProductId": 8205140557881,
-      "shopifyHandle": "socially-jet-lagged-tee",
-      "shopifyVerdict": "verified_exact",
-      "approvalSource": "jessica-lyrics",
-      "phraseRecordStatus": "approved",
-      "desiredCollections": [
-        {
-          "source": "approval",
-          "title": "All Tees",
-          "handle": "all-tees",
-          "collectionId": 466115428409
-        },
-        {
-          "source": "approval",
-          "title": "New Arrivals",
-          "handle": "new-arrivals",
-          "collectionId": 466115493945
-        }
-      ],
-      "pipelineStage": "shopify_verified",
-      "dedupeResult": "already_exists_same_phrase"
-    },
-    {
-      "phraseId": "phr-ztv2-got-any-other-plans",
-      "phrase": "got any other plans",
-      "status": "live",
-      "statusLabel": "Live on site",
-      "lane": "live",
-      "currentOwner": "Content",
-      "nextOwner": "Content/Growth",
-      "updatedAt": "2026-03-13T21:48:15.734Z",
-      "createdAt": "2026-03-13T07:19:12.063Z",
-      "sourceSummary": "",
-      "gates": {
-        "research_packaged": true,
-        "human_approved_research": true,
-        "judge_passed": true,
-        "ops_shopify_verified": true,
-        "content_generated": false,
-        "content_buffer_drafted": false,
-        "ads_live": false
-      },
-      "judge": {},
-      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-ztv2-got-any-other-plans-got-any-other-plans.png",
-      "printifyProductId": "69b46633655061d262099c7a",
-      "shopifyProductId": 8205255704633,
-      "shopifyHandle": "got-any-other-plans-tee",
-      "shopifyVerdict": "verified_exact",
-      "approvalSource": "jessica-lyrics",
-      "phraseRecordStatus": "approved",
-      "desiredCollections": [
-        {
-          "source": "approval",
-          "title": "All Tees",
-          "handle": "all-tees",
-          "collectionId": 466115428409
-        },
-        {
-          "source": "approval",
-          "title": "New Arrivals",
-          "handle": "new-arrivals",
-          "collectionId": 466115493945
-        }
-      ],
-      "pipelineStage": "shopify_verified",
-      "dedupeResult": "already_exists_same_phrase"
-    },
-    {
-      "phraseId": "phr-ztv2-better-than-he-could",
-      "phrase": "better than he could",
-      "status": "live",
-      "statusLabel": "Live on site",
-      "lane": "live",
-      "currentOwner": "Content",
-      "nextOwner": "Content/Growth",
-      "updatedAt": "2026-03-13T21:48:14.465Z",
-      "createdAt": "2026-03-13T07:19:12.012Z",
-      "sourceSummary": "",
-      "gates": {
-        "research_packaged": true,
-        "human_approved_research": true,
-        "judge_passed": true,
-        "ops_shopify_verified": true,
-        "content_generated": false,
-        "content_buffer_drafted": false,
-        "ads_live": false
-      },
-      "judge": {},
-      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-ztv2-better-than-he-could-better-than-he-could.png",
-      "printifyProductId": "69b4636cefc2013e39090e33",
-      "shopifyProductId": 8205247742009,
-      "shopifyHandle": "better-than-he-could-tee",
-      "shopifyVerdict": "verified_exact",
-      "approvalSource": "jessica-lyrics",
-      "phraseRecordStatus": "approved",
-      "desiredCollections": [
-        {
-          "source": "approval",
-          "title": "All Tees",
-          "handle": "all-tees",
-          "collectionId": 466115428409
-        },
-        {
-          "source": "approval",
-          "title": "New Arrivals",
-          "handle": "new-arrivals",
-          "collectionId": 466115493945
-        }
-      ],
-      "pipelineStage": "shopify_verified",
-      "dedupeResult": "already_exists_same_phrase"
-    },
-    {
-      "phraseId": "phr-ztv2-put-it-up-front",
-      "phrase": "put it // up // front",
-      "status": "live",
-      "statusLabel": "Live on site",
-      "lane": "live",
-      "currentOwner": "Content",
-      "nextOwner": "Content/Growth",
-      "updatedAt": "2026-03-13T21:48:13.029Z",
-      "createdAt": "2026-03-13T07:19:11.962Z",
-      "sourceSummary": "",
-      "gates": {
-        "research_packaged": true,
-        "human_approved_research": true,
-        "judge_passed": true,
-        "ops_shopify_verified": true,
-        "content_generated": false,
-        "content_buffer_drafted": false,
-        "ads_live": false
-      },
-      "judge": {},
-      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-ztv2-put-it-up-front-put-it-up-front.png",
-      "printifyProductId": "69b4608ddaf10d1ff90bbed2",
-      "shopifyProductId": 8205235945529,
-      "shopifyHandle": "put-it-up-front-tee",
-      "shopifyVerdict": "verified_exact",
-      "approvalSource": "jessica-lyrics",
-      "phraseRecordStatus": "approved",
-      "desiredCollections": [
-        {
-          "source": "approval",
-          "title": "All Tees",
-          "handle": "all-tees",
-          "collectionId": 466115428409
-        },
-        {
-          "source": "approval",
-          "title": "New Arrivals",
-          "handle": "new-arrivals",
-          "collectionId": 466115493945
-        }
-      ],
-      "pipelineStage": "shopify_verified",
-      "dedupeResult": "already_exists_same_phrase"
-    },
-    {
-      "phraseId": "phr-ztv2-i-didnt-wanna-act-like-this",
-      "phrase": "i didn't wanna act like this",
-      "status": "live",
-      "statusLabel": "Live on site",
-      "lane": "live",
-      "currentOwner": "Content",
-      "nextOwner": "Content/Growth",
-      "updatedAt": "2026-03-13T21:48:11.633Z",
-      "createdAt": "2026-03-13T07:19:11.913Z",
-      "sourceSummary": "",
-      "gates": {
-        "research_packaged": true,
-        "human_approved_research": true,
-        "judge_passed": true,
-        "ops_shopify_verified": true,
-        "content_generated": false,
-        "content_buffer_drafted": false,
-        "ads_live": false
-      },
-      "judge": {},
-      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-ztv2-i-didnt-wanna-act-like-this-i-didnt-wanna-act-like-this.png",
-      "printifyProductId": "69b45c9114fd9779610792c4",
-      "shopifyProductId": 8205223362617,
-      "shopifyHandle": "i-didnt-wanna-act-like-this-tee",
-      "shopifyVerdict": "verified_exact",
-      "approvalSource": "jessica-lyrics",
-      "phraseRecordStatus": "approved",
-      "desiredCollections": [
-        {
-          "source": "approval",
-          "title": "All Tees",
-          "handle": "all-tees",
-          "collectionId": 466115428409
-        },
-        {
-          "source": "approval",
-          "title": "New Arrivals",
-          "handle": "new-arrivals",
-          "collectionId": 466115493945
-        }
-      ],
-      "pipelineStage": "shopify_verified",
-      "dedupeResult": "already_exists_same_phrase"
-    },
-    {
-      "phraseId": "phr-ztv2-running-from-darkness",
-      "phrase": "running from darkness at our own speed",
-      "status": "live",
-      "statusLabel": "Live on site",
-      "lane": "live",
-      "currentOwner": "Content",
-      "nextOwner": "Content/Growth",
-      "updatedAt": "2026-03-13T21:48:10.094Z",
-      "createdAt": "2026-03-13T07:19:11.863Z",
-      "sourceSummary": "",
-      "gates": {
-        "research_packaged": true,
-        "human_approved_research": true,
-        "judge_passed": true,
-        "ops_shopify_verified": true,
-        "content_generated": false,
-        "content_buffer_drafted": false,
-        "ads_live": false
-      },
-      "judge": {},
-      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-ztv2-running-from-darkness-running-from-darkness-at-our-own-speed.png",
-      "printifyProductId": "69b45820dc49b25f9c0615a3",
-      "shopifyProductId": 8205207994425,
-      "shopifyHandle": "running-from-darkness-at-our-own-speed-tee",
-      "shopifyVerdict": "verified_exact",
-      "approvalSource": "jessica-lyrics",
-      "phraseRecordStatus": "approved",
-      "desiredCollections": [
-        {
-          "source": "approval",
-          "title": "All Tees",
-          "handle": "all-tees",
-          "collectionId": 466115428409
-        },
-        {
-          "source": "approval",
-          "title": "New Arrivals",
-          "handle": "new-arrivals",
-          "collectionId": 466115493945
-        }
-      ],
-      "pipelineStage": "shopify_verified",
-      "dedupeResult": "already_exists_same_phrase"
-    },
-    {
-      "phraseId": "phr-ztv2-until-i-have-to-leave",
-      "phrase": "until i have to leave",
-      "status": "live",
-      "statusLabel": "Live on site",
-      "lane": "live",
-      "currentOwner": "Content",
-      "nextOwner": "Content/Growth",
-      "updatedAt": "2026-03-13T21:48:08.719Z",
-      "createdAt": "2026-03-13T07:19:11.813Z",
-      "sourceSummary": "",
-      "gates": {
-        "research_packaged": true,
-        "human_approved_research": true,
-        "judge_passed": true,
-        "ops_shopify_verified": true,
-        "content_generated": false,
-        "content_buffer_drafted": false,
-        "ads_live": false
-      },
-      "judge": {},
-      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-ztv2-until-i-have-to-leave-until-i-have-to-leave.png",
-      "printifyProductId": "69b457d6efc2013e39090bb1",
-      "shopifyProductId": 8205206224953,
-      "shopifyHandle": "until-i-have-to-leave-tee",
-      "shopifyVerdict": "verified_exact",
-      "approvalSource": "jessica-lyrics",
-      "phraseRecordStatus": "approved",
-      "desiredCollections": [
-        {
-          "source": "approval",
-          "title": "All Tees",
-          "handle": "all-tees",
-          "collectionId": 466115428409
-        },
-        {
-          "source": "approval",
-          "title": "New Arrivals",
-          "handle": "new-arrivals",
-          "collectionId": 466115493945
-        }
-      ],
-      "pipelineStage": "shopify_verified",
-      "dedupeResult": "already_exists_same_phrase"
-    },
-    {
-      "phraseId": "phr-ztv2-soon-ill-be-a-stranger",
-      "phrase": "soon i'll be a stranger // for now, i'll be a lover",
-      "status": "live",
-      "statusLabel": "Live on site",
-      "lane": "live",
-      "currentOwner": "Content",
-      "nextOwner": "Content/Growth",
-      "updatedAt": "2026-03-13T21:48:07.391Z",
-      "createdAt": "2026-03-13T07:19:11.763Z",
-      "sourceSummary": "",
-      "gates": {
-        "research_packaged": true,
-        "human_approved_research": true,
-        "judge_passed": true,
-        "ops_shopify_verified": true,
-        "content_generated": false,
-        "content_buffer_drafted": false,
-        "ads_live": false
-      },
-      "judge": {},
-      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-ztv2-soon-ill-be-a-stranger-soon-ill-be-a-stranger-for-now-ill-be-a-lover.png",
-      "printifyProductId": "69b440462defaed0b207e611",
-      "shopifyProductId": 8205165002809,
-      "shopifyHandle": "soon-ill-be-a-stranger-for-now-ill-be-a-lover-tee",
-      "shopifyVerdict": "verified_exact",
-      "approvalSource": "jessica-lyrics",
-      "phraseRecordStatus": "approved",
-      "desiredCollections": [
-        {
-          "source": "approval",
-          "title": "All Tees",
-          "handle": "all-tees",
-          "collectionId": 466115428409
-        },
-        {
-          "source": "approval",
-          "title": "New Arrivals",
-          "handle": "new-arrivals",
-          "collectionId": 466115493945
-        }
-      ],
-      "pipelineStage": "shopify_verified",
-      "dedupeResult": "already_exists_same_phrase"
-    },
-    {
-      "phraseId": "phr-ztv2-its-now-or-never",
-      "phrase": "it's now or never",
-      "status": "live",
-      "statusLabel": "Live on site",
-      "lane": "live",
-      "currentOwner": "Content",
-      "nextOwner": "Content/Growth",
-      "updatedAt": "2026-03-13T21:48:06.128Z",
-      "createdAt": "2026-03-13T07:19:11.712Z",
-      "sourceSummary": "",
-      "gates": {
-        "research_packaged": true,
-        "human_approved_research": true,
-        "judge_passed": true,
-        "ops_shopify_verified": true,
-        "content_generated": false,
-        "content_buffer_drafted": false,
-        "ads_live": false
-      },
-      "judge": {},
-      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-ztv2-its-now-or-never-its-now-or-never.png",
-      "printifyProductId": "69b44017e10ce8657909acf7",
-      "shopifyProductId": 8205164806201,
-      "shopifyHandle": "its-now-or-never-tee",
-      "shopifyVerdict": "verified_exact",
-      "approvalSource": "jessica-lyrics",
-      "phraseRecordStatus": "approved",
-      "desiredCollections": [
-        {
-          "source": "approval",
-          "title": "All Tees",
-          "handle": "all-tees",
-          "collectionId": 466115428409
-        },
-        {
-          "source": "approval",
-          "title": "New Arrivals",
-          "handle": "new-arrivals",
-          "collectionId": 466115493945
-        }
-      ],
-      "pipelineStage": "shopify_verified",
-      "dedupeResult": "already_exists_same_phrase"
-    },
-    {
-      "phraseId": "phr-ztv2-i-cant-stay-for-long",
-      "phrase": "i can't stay for long",
-      "status": "live",
-      "statusLabel": "Live on site",
-      "lane": "live",
-      "currentOwner": "Content",
-      "nextOwner": "Content/Growth",
-      "updatedAt": "2026-03-13T21:48:04.666Z",
-      "createdAt": "2026-03-13T07:19:11.662Z",
-      "sourceSummary": "",
-      "gates": {
-        "research_packaged": true,
-        "human_approved_research": true,
-        "judge_passed": true,
-        "ops_shopify_verified": true,
-        "content_generated": false,
-        "content_buffer_drafted": false,
-        "ads_live": false
-      },
-      "judge": {},
-      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-ztv2-i-cant-stay-for-long-i-cant-stay-for-long.png",
-      "printifyProductId": "69b43feb45d7be8f030be907",
-      "shopifyProductId": 8205164707897,
-      "shopifyHandle": "i-cant-stay-for-long-tee",
-      "shopifyVerdict": "verified_exact",
-      "approvalSource": "jessica-lyrics",
-      "phraseRecordStatus": "approved",
-      "desiredCollections": [
-        {
-          "source": "approval",
-          "title": "All Tees",
-          "handle": "all-tees",
-          "collectionId": 466115428409
-        },
-        {
-          "source": "approval",
-          "title": "New Arrivals",
-          "handle": "new-arrivals",
-          "collectionId": 466115493945
-        }
-      ],
-      "pipelineStage": "shopify_verified",
-      "dedupeResult": "already_exists_same_phrase"
-    },
-    {
-      "phraseId": "phr-ztv2-i-wanna-do-something-unplanned",
-      "phrase": "i wanna do something unplanned",
-      "status": "live",
-      "statusLabel": "Live on site",
-      "lane": "live",
-      "currentOwner": "Content",
-      "nextOwner": "Content/Growth",
-      "updatedAt": "2026-03-13T21:48:03.144Z",
-      "createdAt": "2026-03-13T07:19:11.612Z",
-      "sourceSummary": "",
-      "gates": {
-        "research_packaged": true,
-        "human_approved_research": true,
-        "judge_passed": true,
-        "ops_shopify_verified": true,
-        "content_generated": false,
-        "content_buffer_drafted": false,
-        "ads_live": false
-      },
-      "judge": {},
-      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-ztv2-i-wanna-do-something-unplanned-i-wanna-do-something-unplanned.png",
-      "printifyProductId": "69b40fe225f5971d92056a0e",
-      "shopifyProductId": 8205052870713,
-      "shopifyHandle": "i-wanna-do-something-unplanned-tee",
-      "shopifyVerdict": "verified_exact",
-      "approvalSource": "jessica-lyrics",
-      "phraseRecordStatus": "approved",
-      "desiredCollections": [
-        {
-          "source": "approval",
-          "title": "All Tees",
-          "handle": "all-tees",
-          "collectionId": 466115428409
-        },
-        {
-          "source": "approval",
-          "title": "New Arrivals",
-          "handle": "new-arrivals",
-          "collectionId": 466115493945
-        }
-      ],
-      "pipelineStage": "shopify_verified",
-      "dedupeResult": "already_exists_same_phrase"
-    },
-    {
-      "phraseId": "phr-ztv2-emotions-keep-comin",
-      "phrase": "emotions keep comin'",
-      "status": "live",
-      "statusLabel": "Live on site",
-      "lane": "live",
-      "currentOwner": "Content",
-      "nextOwner": "Content/Growth",
-      "updatedAt": "2026-03-13T21:48:01.820Z",
-      "createdAt": "2026-03-13T07:19:11.563Z",
-      "sourceSummary": "",
-      "gates": {
-        "research_packaged": true,
-        "human_approved_research": true,
-        "judge_passed": true,
-        "ops_shopify_verified": true,
-        "content_generated": false,
-        "content_buffer_drafted": false,
-        "ads_live": false
-      },
-      "judge": {},
-      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-ztv2-emotions-keep-comin-emotions-keep-comin.png",
-      "printifyProductId": "69b40fafe92c7dafad0fa92f",
-      "shopifyProductId": 8205052706873,
-      "shopifyHandle": "emotions-keep-comin-tee",
-      "shopifyVerdict": "verified_exact",
-      "approvalSource": "jessica-lyrics",
-      "phraseRecordStatus": "approved",
-      "desiredCollections": [
-        {
-          "source": "approval",
-          "title": "All Tees",
-          "handle": "all-tees",
-          "collectionId": 466115428409
-        },
-        {
-          "source": "approval",
-          "title": "New Arrivals",
-          "handle": "new-arrivals",
-          "collectionId": 466115493945
-        }
-      ],
-      "pipelineStage": "shopify_verified",
-      "dedupeResult": "already_exists_same_phrase"
-    },
-    {
-      "phraseId": "phr-ztv2-lets-dip-up-out-of-here",
-      "phrase": "let's dip up out of here",
-      "status": "live",
-      "statusLabel": "Live on site",
-      "lane": "live",
-      "currentOwner": "Content",
-      "nextOwner": "Content/Growth",
-      "updatedAt": "2026-03-13T21:48:00.578Z",
-      "createdAt": "2026-03-13T07:19:11.512Z",
-      "sourceSummary": "",
-      "gates": {
-        "research_packaged": true,
-        "human_approved_research": true,
-        "judge_passed": true,
-        "ops_shopify_verified": true,
-        "content_generated": false,
-        "content_buffer_drafted": false,
-        "ads_live": false
-      },
-      "judge": {},
-      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-ztv2-lets-dip-up-out-of-here-lets-dip-up-out-of-here.png",
-      "printifyProductId": "69b40f8225f5971d920569f2",
-      "shopifyProductId": 8205052575801,
-      "shopifyHandle": "lets-dip-up-out-of-here-tee",
-      "shopifyVerdict": "verified_exact",
-      "approvalSource": "jessica-lyrics",
-      "phraseRecordStatus": "approved",
-      "desiredCollections": [
-        {
-          "source": "approval",
-          "title": "All Tees",
-          "handle": "all-tees",
-          "collectionId": 466115428409
-        },
-        {
-          "source": "approval",
-          "title": "New Arrivals",
-          "handle": "new-arrivals",
-          "collectionId": 466115493945
-        }
-      ],
-      "pipelineStage": "shopify_verified",
-      "dedupeResult": "already_exists_same_phrase"
-    },
-    {
-      "phraseId": "phr-ztv2-youre-just-my-type",
-      "phrase": "you're just my type",
-      "status": "live",
-      "statusLabel": "Live on site",
-      "lane": "live",
-      "currentOwner": "Content",
-      "nextOwner": "Content/Growth",
-      "updatedAt": "2026-03-13T21:47:59.258Z",
-      "createdAt": "2026-03-13T07:19:11.462Z",
-      "sourceSummary": "",
-      "gates": {
-        "research_packaged": true,
-        "human_approved_research": true,
-        "judge_passed": true,
-        "ops_shopify_verified": true,
-        "content_generated": false,
-        "content_buffer_drafted": false,
-        "ads_live": false
-      },
-      "judge": {},
-      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-ztv2-youre-just-my-type-youre-just-my-type.png",
-      "printifyProductId": "69b3bafa55219c8fed03f044",
-      "shopifyProductId": 8204920651833,
-      "shopifyHandle": "youre-just-my-type-tee",
-      "shopifyVerdict": "verified_exact",
-      "approvalSource": "jessica-lyrics",
-      "phraseRecordStatus": "approved",
-      "desiredCollections": [
-        {
-          "source": "approval",
-          "title": "All Tees",
-          "handle": "all-tees",
-          "collectionId": 466115428409
-        },
-        {
-          "source": "approval",
-          "title": "New Arrivals",
-          "handle": "new-arrivals",
-          "collectionId": 466115493945
-        }
-      ],
-      "pipelineStage": "shopify_verified",
-      "dedupeResult": "already_exists_same_phrase"
-    },
-    {
-      "phraseId": "phr-ztv2-this-is-how-i-feel",
-      "phrase": "this is how i feel",
-      "status": "live",
-      "statusLabel": "Live on site",
-      "lane": "live",
-      "currentOwner": "Content",
-      "nextOwner": "Content/Growth",
-      "updatedAt": "2026-03-13T21:47:57.922Z",
-      "createdAt": "2026-03-13T07:19:11.409Z",
-      "sourceSummary": "",
-      "gates": {
-        "research_packaged": true,
-        "human_approved_research": true,
-        "judge_passed": true,
-        "ops_shopify_verified": true,
-        "content_generated": false,
-        "content_buffer_drafted": false,
-        "ads_live": false
-      },
-      "judge": {},
-      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-ztv2-this-is-how-i-feel-this-is-how-i-feel.png",
-      "printifyProductId": "69b3bacdc65f67375d0a6f8a",
-      "shopifyProductId": 8204920520761,
-      "shopifyHandle": "this-is-how-i-feel-tee",
-      "shopifyVerdict": "verified_exact",
-      "approvalSource": "jessica-lyrics",
-      "phraseRecordStatus": "approved",
-      "desiredCollections": [
-        {
-          "source": "approval",
-          "title": "All Tees",
-          "handle": "all-tees",
-          "collectionId": 466115428409
-        },
-        {
-          "source": "approval",
-          "title": "New Arrivals",
-          "handle": "new-arrivals",
-          "collectionId": 466115493945
-        }
-      ],
-      "pipelineStage": "shopify_verified",
-      "dedupeResult": "already_exists_same_phrase"
-    },
-    {
-      "phraseId": "phr-ztv2-can-i-be-for-real",
-      "phrase": "can i be for real",
-      "status": "live",
-      "statusLabel": "Live on site",
-      "lane": "live",
-      "currentOwner": "Content",
-      "nextOwner": "Content/Growth",
-      "updatedAt": "2026-03-13T21:47:56.725Z",
-      "createdAt": "2026-03-13T07:19:11.356Z",
-      "sourceSummary": "",
-      "gates": {
-        "research_packaged": true,
-        "human_approved_research": true,
-        "judge_passed": true,
-        "ops_shopify_verified": true,
-        "content_generated": false,
-        "content_buffer_drafted": false,
-        "ads_live": false
-      },
-      "judge": {},
-      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-ztv2-can-i-be-for-real-can-i-be-for-real.png",
-      "printifyProductId": "69b3ba9cf99730ffce0f5c89",
-      "shopifyProductId": 8204920422457,
-      "shopifyHandle": "can-i-be-for-real-tee",
-      "shopifyVerdict": "verified_exact",
-      "approvalSource": "jessica-lyrics",
-      "phraseRecordStatus": "approved",
-      "desiredCollections": [
-        {
-          "source": "approval",
-          "title": "All Tees",
-          "handle": "all-tees",
-          "collectionId": 466115428409
-        },
-        {
-          "source": "approval",
-          "title": "New Arrivals",
-          "handle": "new-arrivals",
-          "collectionId": 466115493945
-        }
-      ],
-      "pipelineStage": "shopify_verified",
-      "dedupeResult": "already_exists_same_phrase"
-    },
-    {
-      "phraseId": "phr-ztv2-touch-starved",
-      "phrase": "touch starved // (but dont touch me)",
-      "status": "live",
-      "statusLabel": "Live on site",
-      "lane": "live",
-      "currentOwner": "Content",
-      "nextOwner": "Content/Growth",
-      "updatedAt": "2026-03-13T21:47:55.530Z",
-      "createdAt": "2026-03-13T05:48:17.159Z",
-      "sourceSummary": "",
-      "gates": {
-        "research_packaged": true,
-        "human_approved_research": true,
-        "judge_passed": true,
-        "ops_shopify_verified": true,
-        "content_generated": false,
-        "content_buffer_drafted": false,
-        "ads_live": false
-      },
-      "judge": {},
-      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-ztv2-touch-starved-touch-starved-but-dont-touch-me.png",
-      "printifyProductId": "69b3b1106be9f135c10484cd",
-      "shopifyProductId": 8204905414713,
-      "shopifyHandle": "touch-starved-but-dont-touch-me-tee",
-      "shopifyVerdict": "verified_exact",
-      "approvalSource": "kolby-approved-live",
-      "phraseRecordStatus": "approved",
-      "desiredCollections": [
-        {
-          "source": "approval",
-          "title": "All Tees",
-          "handle": "all-tees",
-          "collectionId": 466115428409
-        },
-        {
-          "source": "approval",
-          "title": "New Arrivals",
-          "handle": "new-arrivals",
-          "collectionId": 466115493945
-        }
-      ],
-      "pipelineStage": "shopify_verified",
-      "dedupeResult": "already_exists_same_phrase"
-    },
-    {
-      "phraseId": "phr-ztv2-blurry-lately",
-      "phrase": "blurry lately",
-      "status": "live",
-      "statusLabel": "Live on site",
-      "lane": "live",
-      "currentOwner": "Content",
-      "nextOwner": "Content/Growth",
-      "updatedAt": "2026-03-13T21:47:54.351Z",
-      "createdAt": "2026-03-12T02:40:02.3642162Z",
-      "sourceSummary": "Approved by Kolby for Zero Theatre pipeline: dissociation / emotional blur lane, short two-word hitter.",
-      "gates": {
-        "research_packaged": true,
-        "human_approved_research": true,
-        "judge_passed": true,
-        "ops_shopify_verified": true,
-        "content_generated": false,
-        "content_buffer_drafted": false,
-        "ads_live": false
-      },
-      "judge": {
-        "whyItWorks": "two words, immediate read; captures dissociation without dramatics",
-        "wearerIdentity": "people who feel absent from their own life but keep functioning",
-        "sourceLibrary": "zero_theatre_expansion_v2_2026-03-11",
-        "cringeRisk": "low",
-        "approvedAt": "2026-03-12T02:40:02.3642162Z",
-        "decision": "approve_now",
-        "score": 8.5,
-        "brand": "Zero Theatre",
-        "approvedBy": "Kolby",
-        "lane": "numbness-emotional-blur"
-      },
-      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-ztv2-blurry-lately-blurry-lately.png",
-      "printifyProductId": "69b33de73089ca18ed07b9a8",
-      "shopifyProductId": 8204724043833,
-      "shopifyHandle": "blurry-lately-tee",
-      "shopifyVerdict": "verified_exact",
-      "approvalSource": "kolby-approved-live",
-      "phraseRecordStatus": "approved",
-      "desiredCollections": [
-        {
-          "source": "approval",
-          "title": "All Tees",
-          "handle": "all-tees",
-          "collectionId": null
-        },
-        {
-          "source": "approval",
-          "title": "New Arrivals",
-          "handle": "new-arrivals",
-          "collectionId": null
-        }
-      ],
-      "pipelineStage": "shopify_verified",
-      "dedupeResult": "already_exists_same_phrase"
-    },
-    {
-      "phraseId": "phr-ztv2-private-by-choice",
-      "phrase": "private by choice",
-      "status": "live",
-      "statusLabel": "Live on site",
-      "lane": "live",
-      "currentOwner": "Content",
-      "nextOwner": "Content/Growth",
-      "updatedAt": "2026-03-13T21:47:53.061Z",
-      "createdAt": "2026-03-11T16:55:53.1874956Z",
-      "sourceSummary": "Approved by Kolby from Zero Theatre expansion v2 selective-access lane for live store pipeline.",
-      "gates": {
-        "research_packaged": true,
-        "human_approved_research": true,
-        "judge_passed": true,
-        "ops_shopify_verified": true,
-        "content_generated": false,
-        "content_buffer_drafted": false,
-        "ads_live": false
-      },
-      "judge": {
-        "approvedBy": "Kolby",
-        "lane": "quiet-control",
-        "decision": "approve_now",
-        "sourceLibrary": "zero_theatre_expansion_v2_2026-03-11",
-        "brand": "Zero Theatre",
-        "approvedAt": "2026-03-11T16:55:53.1874956Z"
-      },
-      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-ztv2-private-by-choice-private-by-choice.png",
-      "printifyProductId": "69b1f28f28173abf6e0e7c53",
-      "shopifyProductId": 8204248350777,
-      "shopifyHandle": "private-by-choice-tee",
-      "shopifyVerdict": "verified_exact",
-      "approvalSource": "kolby-approved-live",
-      "phraseRecordStatus": "approved",
-      "desiredCollections": [
-        {
-          "source": "approval",
-          "title": "All Tees",
-          "handle": "all-tees",
-          "collectionId": null
-        },
-        {
-          "source": "approval",
-          "title": "New Arrivals",
-          "handle": "new-arrivals",
-          "collectionId": null
-        }
-      ],
-      "pipelineStage": "shopify_verified",
-      "dedupeResult": "already_exists_same_phrase"
-    },
-    {
-      "phraseId": "phr-ztv2-access-is-earned",
-      "phrase": "access is earned",
-      "status": "live",
-      "statusLabel": "Live on site",
-      "lane": "live",
-      "currentOwner": "Content",
-      "nextOwner": "Content/Growth",
-      "updatedAt": "2026-03-13T21:47:51.788Z",
-      "createdAt": "2026-03-11T16:55:53.1874956Z",
-      "sourceSummary": "Approved by Kolby from Zero Theatre expansion v2 selective-access lane for live store pipeline.",
-      "gates": {
-        "research_packaged": true,
-        "human_approved_research": true,
-        "judge_passed": true,
-        "ops_shopify_verified": true,
-        "content_generated": false,
-        "content_buffer_drafted": false,
-        "ads_live": false
-      },
-      "judge": {
-        "approvedBy": "Kolby",
-        "lane": "selective-access",
-        "decision": "approve_now",
-        "sourceLibrary": "zero_theatre_expansion_v2_2026-03-11",
-        "brand": "Zero Theatre",
-        "approvedAt": "2026-03-11T16:55:53.1874956Z"
-      },
-      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-ztv2-access-is-earned-access-is-earned.png",
-      "printifyProductId": "69b1f25e9ea0c8eb7b033810",
-      "shopifyProductId": 8204247760953,
-      "shopifyHandle": "access-is-earned-tee",
-      "shopifyVerdict": "verified_exact",
-      "approvalSource": "kolby-approved-live",
-      "phraseRecordStatus": "approved",
-      "desiredCollections": [
-        {
-          "source": "approval",
-          "title": "All Tees",
-          "handle": "all-tees",
-          "collectionId": null
-        },
-        {
-          "source": "approval",
-          "title": "New Arrivals",
-          "handle": "new-arrivals",
-          "collectionId": null
-        }
-      ],
-      "pipelineStage": "shopify_verified",
-      "dedupeResult": "already_exists_same_phrase"
-    },
-    {
-      "phraseId": "phr-ztv2-not-everyone-gets-to-stay",
-      "phrase": "not everyone gets to stay",
-      "status": "live",
-      "statusLabel": "Live on site",
-      "lane": "live",
-      "currentOwner": "Content",
-      "nextOwner": "Content/Growth",
-      "updatedAt": "2026-03-13T21:47:50.370Z",
-      "createdAt": "2026-03-11T16:55:53.1874956Z",
-      "sourceSummary": "Approved by Kolby from Zero Theatre expansion v2 selective-access lane for live store pipeline.",
-      "gates": {
-        "research_packaged": true,
-        "human_approved_research": true,
-        "judge_passed": true,
-        "ops_shopify_verified": true,
-        "content_generated": false,
-        "content_buffer_drafted": false,
-        "ads_live": false
-      },
-      "judge": {
-        "approvedBy": "Kolby",
-        "lane": "selective-access",
-        "decision": "approve_now",
-        "sourceLibrary": "zero_theatre_expansion_v2_2026-03-11",
-        "brand": "Zero Theatre",
-        "approvedAt": "2026-03-11T16:55:53.1874956Z"
-      },
-      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-ztv2-not-everyone-gets-to-stay-not-everyone-gets-to-stay.png",
-      "printifyProductId": "69b1ae005b50cef0a60be890",
-      "shopifyProductId": 8204174917689,
-      "shopifyHandle": "not-everyone-gets-to-stay-tee",
-      "shopifyVerdict": "verified_exact",
-      "approvalSource": "kolby-approved-live",
-      "phraseRecordStatus": "approved",
-      "desiredCollections": [
-        {
-          "source": "approval",
-          "title": "All Tees",
-          "handle": "all-tees",
-          "collectionId": null
-        },
-        {
-          "source": "approval",
-          "title": "New Arrivals",
-          "handle": "new-arrivals",
-          "collectionId": null
-        }
-      ],
-      "pipelineStage": "shopify_verified",
-      "dedupeResult": "already_exists_same_phrase"
-    },
-    {
-      "phraseId": "phr-0049",
-      "phrase": "i am not mysterious im avoidant",
-      "status": "live",
-      "statusLabel": "Live on site",
-      "lane": "live",
-      "currentOwner": "Content",
-      "nextOwner": "Content/Growth",
-      "updatedAt": "2026-03-13T21:47:49.080Z",
-      "createdAt": "2026-03-10T02:13:45.767Z",
-      "sourceSummary": "Prepared for 20-phrase batch on 2026-03-09.",
-      "gates": {
-        "research_packaged": true,
-        "human_approved_research": true,
-        "judge_passed": true,
-        "ops_shopify_verified": true,
-        "content_generated": false,
-        "content_buffer_drafted": false,
-        "ads_live": false
-      },
-      "judge": {},
-      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-0049-i-am-not-mysterious-im-avoidant.png",
-      "printifyProductId": "69af8030760b564cab0bcad8",
-      "shopifyProductId": 8203177885753,
-      "shopifyHandle": "i-am-not-mysterious-im-avoidant-tee",
-      "shopifyVerdict": "verified_exact",
-      "approvalSource": "manual-batch",
-      "phraseRecordStatus": "approved",
-      "desiredCollections": [
-        {
-          "handle": "all-tees",
-          "title": "All Tees",
-          "collectionId": null,
-          "source": "approval"
-        },
-        {
-          "handle": "new-arrivals",
-          "title": "New Arrivals",
-          "collectionId": null,
-          "source": "approval"
-        }
-      ],
-      "pipelineStage": "shopify_verified",
-      "dedupeResult": "already_exists_same_phrase"
-    },
-    {
-      "phraseId": "phr-0048",
-      "phrase": "please be direct im fragile",
-      "status": "live",
-      "statusLabel": "Live on site",
-      "lane": "live",
-      "currentOwner": "Content",
-      "nextOwner": "Content/Growth",
-      "updatedAt": "2026-03-13T21:47:47.714Z",
-      "createdAt": "2026-03-10T02:13:43.672Z",
-      "sourceSummary": "Prepared for 20-phrase batch on 2026-03-09.",
-      "gates": {
-        "research_packaged": true,
-        "human_approved_research": true,
-        "judge_passed": true,
-        "ops_shopify_verified": true,
-        "content_generated": false,
-        "content_buffer_drafted": false,
-        "ads_live": false
-      },
-      "judge": {},
-      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-0048-please-be-direct-im-fragile.png",
-      "printifyProductId": "69af801945b84f372a0e182d",
-      "shopifyProductId": 8203177754681,
-      "shopifyHandle": "please-be-direct-im-fragile-tee",
-      "shopifyVerdict": "verified_exact",
-      "approvalSource": "manual-batch",
-      "phraseRecordStatus": "approved",
-      "desiredCollections": [
-        {
-          "handle": "all-tees",
-          "title": "All Tees",
-          "collectionId": null,
-          "source": "approval"
-        },
-        {
-          "handle": "new-arrivals",
-          "title": "New Arrivals",
-          "collectionId": null,
-          "source": "approval"
-        }
-      ],
-      "pipelineStage": "shopify_verified",
-      "dedupeResult": "already_exists_same_phrase"
-    },
-    {
-      "phraseId": "phr-0047",
-      "phrase": "i hurry so i can stop hurrying",
-      "status": "live",
-      "statusLabel": "Live on site",
-      "lane": "live",
-      "currentOwner": "Content",
-      "nextOwner": "Content/Growth",
-      "updatedAt": "2026-03-13T21:47:46.359Z",
-      "createdAt": "2026-03-10T02:13:41.625Z",
-      "sourceSummary": "Prepared for 20-phrase batch on 2026-03-09.",
-      "gates": {
-        "research_packaged": true,
-        "human_approved_research": true,
-        "judge_passed": true,
-        "ops_shopify_verified": true,
-        "content_generated": false,
-        "content_buffer_drafted": false,
-        "ads_live": false
-      },
-      "judge": {},
-      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-0047-i-hurry-so-i-can-stop-hurrying.png",
-      "printifyProductId": "69af800355f6b951d4074343",
-      "shopifyProductId": 8203177689145,
-      "shopifyHandle": "i-hurry-so-i-can-stop-hurrying-tee",
-      "shopifyVerdict": "verified_exact",
-      "approvalSource": "manual-batch",
-      "phraseRecordStatus": "approved",
-      "desiredCollections": [
-        {
-          "handle": "all-tees",
-          "title": "All Tees",
-          "collectionId": null,
-          "source": "approval"
-        },
-        {
-          "handle": "new-arrivals",
-          "title": "New Arrivals",
-          "collectionId": null,
-          "source": "approval"
-        }
-      ],
-      "pipelineStage": "shopify_verified",
-      "dedupeResult": "already_exists_same_phrase"
-    },
-    {
-      "phraseId": "phr-0045",
-      "phrase": "too self aware to be chill",
-      "status": "live",
-      "statusLabel": "Live on site",
-      "lane": "live",
-      "currentOwner": "Content",
-      "nextOwner": "Content/Growth",
-      "updatedAt": "2026-03-13T21:47:44.280Z",
-      "createdAt": "2026-03-10T02:13:37.633Z",
-      "sourceSummary": "Prepared for 20-phrase batch on 2026-03-09.",
-      "gates": {
-        "research_packaged": true,
-        "human_approved_research": true,
-        "judge_passed": true,
-        "ops_shopify_verified": true,
-        "content_generated": false,
-        "content_buffer_drafted": false,
-        "ads_live": false
-      },
-      "judge": {},
-      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-0045-too-self-aware-to-be-chill.png",
-      "printifyProductId": "69af7fd192a148b7000d9df7",
-      "shopifyProductId": 8203177623609,
-      "shopifyHandle": "too-self-aware-to-be-chill-tee",
-      "shopifyVerdict": "verified_exact",
-      "approvalSource": "manual-batch",
-      "phraseRecordStatus": "approved",
-      "desiredCollections": [
-        {
-          "handle": "all-tees",
-          "title": "All Tees",
-          "collectionId": null,
-          "source": "approval"
-        },
-        {
-          "handle": "new-arrivals",
-          "title": "New Arrivals",
-          "collectionId": null,
-          "source": "approval"
-        }
-      ],
-      "pipelineStage": "shopify_verified",
-      "dedupeResult": "already_exists_same_phrase"
-    },
-    {
-      "phraseId": "phr-0043",
-      "phrase": "i am reliable against my will",
-      "status": "live",
-      "statusLabel": "Live on site",
-      "lane": "live",
-      "currentOwner": "Content",
-      "nextOwner": "Content/Growth",
-      "updatedAt": "2026-03-13T21:47:42.195Z",
-      "createdAt": "2026-03-10T02:12:56.590Z",
-      "sourceSummary": "Prepared for 20-phrase batch on 2026-03-09.",
-      "gates": {
-        "research_packaged": true,
-        "human_approved_research": true,
-        "judge_passed": true,
-        "ops_shopify_verified": true,
-        "content_generated": false,
-        "content_buffer_drafted": false,
-        "ads_live": false
-      },
-      "judge": {},
-      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-0043-i-am-reliable-against-my-will.png",
-      "printifyProductId": "69af7fa9b11e1d8f80048b8e",
-      "shopifyProductId": 8203177525305,
-      "shopifyHandle": "i-am-reliable-against-my-will-tee",
-      "shopifyVerdict": "verified_exact",
-      "approvalSource": "manual-batch",
-      "phraseRecordStatus": "approved",
-      "desiredCollections": [
-        {
-          "handle": "all-tees",
-          "title": "All Tees",
-          "collectionId": null,
-          "source": "approval"
-        },
-        {
-          "handle": "new-arrivals",
-          "title": "New Arrivals",
-          "collectionId": null,
-          "source": "approval"
-        }
-      ],
-      "pipelineStage": "shopify_verified",
-      "dedupeResult": "already_exists_same_phrase"
-    },
-    {
-      "phraseId": "phr-0042",
-      "phrase": "i want reassurance not advice",
-      "status": "live",
-      "statusLabel": "Live on site",
-      "lane": "live",
-      "currentOwner": "Content",
-      "nextOwner": "Content/Growth",
-      "updatedAt": "2026-03-13T21:47:40.842Z",
-      "createdAt": "2026-03-10T02:12:54.311Z",
-      "sourceSummary": "Prepared for 20-phrase batch on 2026-03-09.",
-      "gates": {
-        "research_packaged": true,
-        "human_approved_research": true,
-        "judge_passed": true,
-        "ops_shopify_verified": true,
-        "content_generated": false,
-        "content_buffer_drafted": false,
-        "ads_live": false
-      },
-      "judge": {},
-      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-0042-i-want-reassurance-not-advice.png",
-      "printifyProductId": "69af7f9691baf6a4ab0aae60",
-      "shopifyProductId": 8203177492537,
-      "shopifyHandle": "i-want-reassurance-not-advice-tee",
-      "shopifyVerdict": "verified_exact",
-      "approvalSource": "manual-batch",
-      "phraseRecordStatus": "approved",
-      "desiredCollections": [
-        {
-          "handle": "all-tees",
-          "title": "All Tees",
-          "collectionId": null,
-          "source": "approval"
-        },
-        {
-          "handle": "new-arrivals",
-          "title": "New Arrivals",
-          "collectionId": null,
-          "source": "approval"
-        }
-      ],
-      "pipelineStage": "shopify_verified",
-      "dedupeResult": "already_exists_same_phrase"
-    },
-    {
-      "phraseId": "phr-0041",
-      "phrase": "hard to love easy to remember",
-      "status": "live",
-      "statusLabel": "Live on site",
-      "lane": "live",
-      "currentOwner": "Content",
-      "nextOwner": "Content/Growth",
-      "updatedAt": "2026-03-13T21:47:39.447Z",
-      "createdAt": "2026-03-10T02:12:52.199Z",
-      "sourceSummary": "Prepared for 20-phrase batch on 2026-03-09.",
-      "gates": {
-        "research_packaged": true,
-        "human_approved_research": true,
-        "judge_passed": true,
-        "ops_shopify_verified": true,
-        "content_generated": false,
-        "content_buffer_drafted": false,
-        "ads_live": false
-      },
-      "judge": {},
-      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-0041-hard-to-love-easy-to-remember.png",
-      "printifyProductId": "69af7f8318fd5f7c22010ece",
-      "shopifyProductId": 8203177459769,
-      "shopifyHandle": "hard-to-love-easy-to-remember-tee",
-      "shopifyVerdict": "verified_exact",
-      "approvalSource": "manual-batch",
-      "phraseRecordStatus": "approved",
-      "desiredCollections": [
-        {
-          "handle": "all-tees",
-          "title": "All Tees",
-          "collectionId": null,
-          "source": "approval"
-        },
-        {
-          "handle": "new-arrivals",
-          "title": "New Arrivals",
-          "collectionId": null,
-          "source": "approval"
-        }
-      ],
-      "pipelineStage": "shopify_verified",
-      "dedupeResult": "already_exists_same_phrase"
-    },
-    {
-      "phraseId": "phr-0040",
-      "phrase": "i miss people in theory",
-      "status": "live",
-      "statusLabel": "Live on site",
-      "lane": "live",
-      "currentOwner": "Content",
-      "nextOwner": "Content/Growth",
-      "updatedAt": "2026-03-13T21:47:38.142Z",
-      "createdAt": "2026-03-10T02:12:50.148Z",
-      "sourceSummary": "Prepared for 20-phrase batch on 2026-03-09.",
-      "gates": {
-        "research_packaged": true,
-        "human_approved_research": true,
-        "judge_passed": true,
-        "ops_shopify_verified": true,
-        "content_generated": false,
-        "content_buffer_drafted": false,
-        "ads_live": false
-      },
-      "judge": {},
-      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-0040-i-miss-people-in-theory.png",
-      "printifyProductId": "69af7f6ff00677722e0df828",
-      "shopifyProductId": 8203177427001,
-      "shopifyHandle": "i-miss-people-in-theory-tee",
-      "shopifyVerdict": "verified_exact",
-      "approvalSource": "manual-batch",
-      "phraseRecordStatus": "approved",
-      "desiredCollections": [
-        {
-          "handle": "all-tees",
-          "title": "All Tees",
-          "collectionId": null,
-          "source": "approval"
-        },
-        {
-          "handle": "new-arrivals",
-          "title": "New Arrivals",
-          "collectionId": null,
-          "source": "approval"
-        }
-      ],
-      "pipelineStage": "shopify_verified",
-      "dedupeResult": "already_exists_same_phrase"
-    },
-    {
-      "phraseId": "phr-0039",
-      "phrase": "i need less access to everyone",
-      "status": "live",
-      "statusLabel": "Live on site",
-      "lane": "live",
-      "currentOwner": "Content",
-      "nextOwner": "Content/Growth",
-      "updatedAt": "2026-03-13T21:47:36.709Z",
-      "createdAt": "2026-03-10T02:12:48.038Z",
-      "sourceSummary": "Prepared for 20-phrase batch on 2026-03-09.",
-      "gates": {
-        "research_packaged": true,
-        "human_approved_research": true,
-        "judge_passed": true,
-        "ops_shopify_verified": true,
-        "content_generated": false,
-        "content_buffer_drafted": false,
-        "ads_live": false
-      },
-      "judge": {},
-      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-0039-i-need-less-access-to-everyone.png",
-      "printifyProductId": "69af7f346991448652061f77",
-      "shopifyProductId": 8203177263161,
-      "shopifyHandle": "i-need-less-access-to-everyone-tee",
-      "shopifyVerdict": "verified_exact",
-      "approvalSource": "manual-batch",
-      "phraseRecordStatus": "approved",
-      "desiredCollections": [
-        {
-          "handle": "all-tees",
-          "title": "All Tees",
-          "collectionId": null,
-          "source": "approval"
-        },
-        {
-          "handle": "new-arrivals",
-          "title": "New Arrivals",
-          "collectionId": null,
-          "source": "approval"
-        }
-      ],
-      "pipelineStage": "shopify_verified",
-      "dedupeResult": "already_exists_same_phrase"
-    },
-    {
-      "phraseId": "phr-0038",
-      "phrase": "please tell me where i stand",
-      "status": "live",
-      "statusLabel": "Live on site",
-      "lane": "live",
-      "currentOwner": "Content",
-      "nextOwner": "Content/Growth",
-      "updatedAt": "2026-03-13T21:47:35.388Z",
-      "createdAt": "2026-03-10T02:12:46.104Z",
-      "sourceSummary": "Prepared for 20-phrase batch on 2026-03-09.",
-      "gates": {
-        "research_packaged": true,
-        "human_approved_research": true,
-        "judge_passed": true,
-        "ops_shopify_verified": true,
-        "content_generated": false,
-        "content_buffer_drafted": false,
-        "ads_live": false
-      },
-      "judge": {},
-      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-0038-please-tell-me-where-i-stand.png",
-      "printifyProductId": "69af7f201ae024cb77052214",
-      "shopifyProductId": 8203177230393,
-      "shopifyHandle": "please-tell-me-where-i-stand-tee",
-      "shopifyVerdict": "verified_exact",
-      "approvalSource": "manual-batch",
-      "phraseRecordStatus": "approved",
-      "desiredCollections": [
-        {
-          "handle": "all-tees",
-          "title": "All Tees",
-          "collectionId": null,
-          "source": "approval"
-        },
-        {
-          "handle": "new-arrivals",
-          "title": "New Arrivals",
-          "collectionId": null,
-          "source": "approval"
-        }
-      ],
-      "pipelineStage": "shopify_verified",
-      "dedupeResult": "already_exists_same_phrase"
-    },
-    {
-      "phraseId": "phr-0037",
-      "phrase": "i hope i wasnt too much",
-      "status": "live",
-      "statusLabel": "Live on site",
-      "lane": "live",
-      "currentOwner": "Content",
-      "nextOwner": "Content/Growth",
-      "updatedAt": "2026-03-13T21:47:33.985Z",
-      "createdAt": "2026-03-10T02:12:43.995Z",
-      "sourceSummary": "Prepared for 20-phrase batch on 2026-03-09.",
-      "gates": {
-        "research_packaged": true,
-        "human_approved_research": true,
-        "judge_passed": true,
-        "ops_shopify_verified": true,
-        "content_generated": false,
-        "content_buffer_drafted": false,
-        "ads_live": false
-      },
-      "judge": {},
-      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-0037-i-hope-i-wasnt-too-much.png",
-      "printifyProductId": "69af7f0f1656bd83cb0b7b87",
-      "shopifyProductId": 8203177164857,
-      "shopifyHandle": "i-hope-i-wasnt-too-much-tee",
-      "shopifyVerdict": "verified_exact",
-      "approvalSource": "manual-batch",
-      "phraseRecordStatus": "approved",
-      "desiredCollections": [
-        {
-          "handle": "all-tees",
-          "title": "All Tees",
-          "collectionId": null,
-          "source": "approval"
-        },
-        {
-          "handle": "new-arrivals",
-          "title": "New Arrivals",
-          "collectionId": null,
-          "source": "approval"
-        }
-      ],
-      "pipelineStage": "shopify_verified",
-      "dedupeResult": "already_exists_same_phrase"
-    },
-    {
-      "phraseId": "phr-0036",
-      "phrase": "did i make this weird",
-      "status": "live",
-      "statusLabel": "Live on site",
-      "lane": "live",
-      "currentOwner": "Content",
-      "nextOwner": "Content/Growth",
-      "updatedAt": "2026-03-13T21:47:32.606Z",
-      "createdAt": "2026-03-10T02:12:41.643Z",
-      "sourceSummary": "Prepared for 20-phrase batch on 2026-03-09.",
-      "gates": {
-        "research_packaged": true,
-        "human_approved_research": true,
-        "judge_passed": true,
-        "ops_shopify_verified": true,
-        "content_generated": false,
-        "content_buffer_drafted": false,
-        "ads_live": false
-      },
-      "judge": {},
-      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-0036-did-i-make-this-weird.png",
-      "printifyProductId": "69af7efd1656bd83cb0b7b86",
-      "shopifyProductId": 8203177132089,
-      "shopifyHandle": "did-i-make-this-weird-tee",
-      "shopifyVerdict": "verified_exact",
-      "approvalSource": "manual-batch",
-      "phraseRecordStatus": "approved",
-      "desiredCollections": [
-        {
-          "handle": "all-tees",
-          "title": "All Tees",
-          "collectionId": null,
-          "source": "approval"
-        },
-        {
-          "handle": "new-arrivals",
-          "title": "New Arrivals",
-          "collectionId": null,
-          "source": "approval"
-        }
-      ],
-      "pipelineStage": "shopify_verified",
-      "dedupeResult": "already_exists_same_phrase"
-    },
-    {
-      "phraseId": "phr-0035",
-      "phrase": "did i do anything wrong",
-      "status": "live",
-      "statusLabel": "Live on site",
-      "lane": "live",
-      "currentOwner": "Content",
-      "nextOwner": "Content/Growth",
-      "updatedAt": "2026-03-13T21:47:31.164Z",
-      "createdAt": "2026-03-10T02:12:38.811Z",
-      "sourceSummary": "Prepared for 20-phrase batch on 2026-03-09.",
-      "gates": {
-        "research_packaged": true,
-        "human_approved_research": true,
-        "judge_passed": true,
-        "ops_shopify_verified": true,
-        "content_generated": false,
-        "content_buffer_drafted": false,
-        "ads_live": false
-      },
-      "judge": {},
-      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-0035-did-i-do-anything-wrong.png",
-      "printifyProductId": "69af7eeab11e1d8f80048b79",
-      "shopifyProductId": 8203176706105,
-      "shopifyHandle": "did-i-do-anything-wrong-tee",
-      "shopifyVerdict": "verified_exact",
-      "approvalSource": "manual-batch",
-      "phraseRecordStatus": "approved",
-      "desiredCollections": [
-        {
-          "handle": "all-tees",
-          "title": "All Tees",
-          "collectionId": null,
-          "source": "approval"
-        },
-        {
-          "handle": "new-arrivals",
-          "title": "New Arrivals",
-          "collectionId": null,
-          "source": "approval"
-        }
-      ],
-      "pipelineStage": "shopify_verified",
-      "dedupeResult": "already_exists_same_phrase"
-    },
-    {
-      "phraseId": "phr-0034",
-      "phrase": "am i acting okay",
-      "status": "live",
-      "statusLabel": "Live on site",
-      "lane": "live",
-      "currentOwner": "Content",
-      "nextOwner": "Content/Growth",
-      "updatedAt": "2026-03-13T21:47:29.721Z",
-      "createdAt": "2026-03-10T02:12:36.741Z",
-      "sourceSummary": "Prepared for 20-phrase batch on 2026-03-09.",
-      "gates": {
-        "research_packaged": true,
-        "human_approved_research": true,
-        "judge_passed": true,
-        "ops_shopify_verified": true,
-        "content_generated": false,
-        "content_buffer_drafted": false,
-        "ads_live": false
-      },
-      "judge": {},
-      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-0034-am-i-acting-okay.png",
-      "printifyProductId": "69af865e7c36fc2c430139a6",
-      "shopifyProductId": 8203347951673,
-      "shopifyHandle": "am-i-acting-okay-tee",
-      "shopifyVerdict": "verified_exact",
-      "approvalSource": "manual-batch",
-      "phraseRecordStatus": "approved",
-      "desiredCollections": [
-        {
-          "handle": "all-tees",
-          "title": "All Tees",
-          "collectionId": null,
-          "source": "approval"
-        },
-        {
-          "handle": "new-arrivals",
-          "title": "New Arrivals",
-          "collectionId": null,
-          "source": "approval"
-        }
-      ],
-      "pipelineStage": "shopify_verified",
-      "dedupeResult": "already_exists_same_phrase"
-    },
-    {
-      "phraseId": "phr-0033",
-      "phrase": "embarrassed to be embarrassed",
-      "status": "live",
-      "statusLabel": "Live on site",
-      "lane": "live",
-      "currentOwner": "Content",
-      "nextOwner": "Content/Growth",
-      "updatedAt": "2026-03-13T21:47:28.209Z",
-      "createdAt": "2026-03-10T02:12:34.650Z",
-      "sourceSummary": "Prepared for 20-phrase batch on 2026-03-09.",
-      "gates": {
-        "research_packaged": true,
-        "human_approved_research": true,
-        "judge_passed": true,
-        "ops_shopify_verified": true,
-        "content_generated": false,
-        "content_buffer_drafted": false,
-        "ads_live": false
-      },
-      "judge": {},
-      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-0033-embarrassed-to-be-embarrassed.png",
-      "printifyProductId": "69af864b92a148b7000d9f53",
-      "shopifyProductId": 8203347787833,
-      "shopifyHandle": "embarrassed-to-be-embarrassed-tee",
-      "shopifyVerdict": "verified_exact",
-      "approvalSource": "manual-batch",
-      "phraseRecordStatus": "approved",
-      "desiredCollections": [
-        {
-          "handle": "all-tees",
-          "title": "All Tees",
-          "collectionId": null,
-          "source": "approval"
-        },
-        {
-          "handle": "new-arrivals",
-          "title": "New Arrivals",
-          "collectionId": null,
-          "source": "approval"
-        }
-      ],
-      "pipelineStage": "shopify_verified",
-      "dedupeResult": "already_exists_same_phrase"
-    },
-    {
-      "phraseId": "phr-0032",
-      "phrase": "the aloof confidence of a housecat",
-      "status": "live",
-      "statusLabel": "Live on site",
-      "lane": "live",
-      "currentOwner": "Content",
-      "nextOwner": "Content/Growth",
-      "updatedAt": "2026-03-13T21:47:26.837Z",
-      "createdAt": "2026-03-10T02:12:32.703Z",
-      "sourceSummary": "Prepared for 20-phrase batch on 2026-03-09.",
-      "gates": {
-        "research_packaged": true,
-        "human_approved_research": true,
-        "judge_passed": true,
-        "ops_shopify_verified": true,
-        "content_generated": false,
-        "content_buffer_drafted": false,
-        "ads_live": false
-      },
-      "judge": {},
-      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-0032-the-aloof-confidence-of-a-housecat.png",
-      "printifyProductId": "69af7eaf55f6b951d4074314",
-      "shopifyProductId": 8203175723065,
-      "shopifyHandle": "the-aloof-confidence-of-a-housecat-tee",
-      "shopifyVerdict": "verified_exact",
-      "approvalSource": "manual-batch",
-      "phraseRecordStatus": "approved",
-      "desiredCollections": [
-        {
-          "handle": "all-tees",
-          "title": "All Tees",
-          "collectionId": null,
-          "source": "approval"
-        },
-        {
-          "handle": "new-arrivals",
-          "title": "New Arrivals",
-          "collectionId": null,
-          "source": "approval"
-        }
-      ],
-      "pipelineStage": "shopify_verified",
-      "dedupeResult": "already_exists_same_phrase"
-    },
-    {
-      "phraseId": "phr-0031",
-      "phrase": "i cant be casual about anything",
-      "status": "live",
-      "statusLabel": "Live on site",
-      "lane": "live",
-      "currentOwner": "Content",
-      "nextOwner": "Content/Growth",
-      "updatedAt": "2026-03-13T21:47:25.465Z",
-      "createdAt": "2026-03-10T02:12:30.501Z",
-      "sourceSummary": "Prepared for 20-phrase batch on 2026-03-09.",
-      "gates": {
-        "research_packaged": true,
-        "human_approved_research": true,
-        "judge_passed": true,
-        "ops_shopify_verified": true,
-        "content_generated": false,
-        "content_buffer_drafted": false,
-        "ads_live": false
-      },
-      "judge": {},
-      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-0031-i-cant-be-casual-about-anything.png",
-      "printifyProductId": "69af7e99b11e1d8f80048b6f",
-      "shopifyProductId": 8203175395385,
-      "shopifyHandle": "i-cant-be-casual-about-anything-tee",
-      "shopifyVerdict": "verified_exact",
-      "approvalSource": "manual-batch",
-      "phraseRecordStatus": "approved",
-      "desiredCollections": [
-        {
-          "handle": "all-tees",
-          "title": "All Tees",
-          "collectionId": null,
-          "source": "approval"
-        },
-        {
-          "handle": "new-arrivals",
-          "title": "New Arrivals",
-          "collectionId": null,
-          "source": "approval"
-        }
-      ],
-      "pipelineStage": "shopify_verified",
-      "dedupeResult": "already_exists_same_phrase"
-    },
-    {
-      "phraseId": "phr-0030",
-      "phrase": "i dont do mixed signals",
-      "status": "live",
-      "statusLabel": "Live on site",
-      "lane": "live",
-      "currentOwner": "Content",
-      "nextOwner": "Content/Growth",
-      "updatedAt": "2026-03-13T21:47:24.077Z",
-      "createdAt": "2026-03-10T02:12:28.139Z",
-      "sourceSummary": "Prepared for 20-phrase batch on 2026-03-09.",
-      "gates": {
-        "research_packaged": true,
-        "human_approved_research": true,
-        "judge_passed": true,
-        "ops_shopify_verified": true,
-        "content_generated": false,
-        "content_buffer_drafted": false,
-        "ads_live": false
-      },
-      "judge": {},
-      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-0030-i-dont-do-mixed-signals.png",
-      "printifyProductId": "69af7e851ae024cb770521fc",
-      "shopifyProductId": 8203174838329,
-      "shopifyHandle": "i-dont-do-mixed-signals-tee",
-      "shopifyVerdict": "verified_exact",
-      "approvalSource": "manual-batch",
-      "phraseRecordStatus": "approved",
-      "desiredCollections": [
-        {
-          "handle": "all-tees",
-          "title": "All Tees",
-          "collectionId": null,
-          "source": "approval"
-        },
-        {
-          "handle": "new-arrivals",
-          "title": "New Arrivals",
-          "collectionId": null,
-          "source": "approval"
-        }
-      ],
-      "pipelineStage": "shopify_verified",
-      "dedupeResult": "already_exists_same_phrase"
-    },
-    {
-      "phraseId": "phr-0013",
-      "phrase": "boring but stable",
-      "status": "live",
-      "statusLabel": "Live on site",
-      "lane": "live",
-      "currentOwner": "Content",
-      "nextOwner": "Content/Growth",
-      "updatedAt": "2026-03-13T21:47:22.709Z",
-      "createdAt": "2026-03-10T01:22:20.293Z",
-      "sourceSummary": "Remote product successfully created and active in Shopify on 2026-03-09, but verifier needs reconciliation because enriched title/handle drift from phrase-only identity rules.",
-      "gates": {
-        "research_packaged": true,
-        "human_approved_research": true,
-        "judge_passed": true,
-        "ops_shopify_verified": true,
-        "content_generated": false,
-        "content_buffer_drafted": false,
-        "ads_live": false
-      },
-      "judge": {},
-      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-0013-boring-but-stable.png",
-      "printifyProductId": "69af726318fd5f7c22010c24",
-      "shopifyProductId": 8203161993273,
-      "shopifyHandle": "boring-but-stable-black-statement-t-shirt",
-      "shopifyVerdict": "verified_exact",
-      "approvalSource": "manual",
-      "phraseRecordStatus": "approved",
-      "desiredCollections": [],
-      "pipelineStage": "shopify_verified",
-      "dedupeResult": "already_exists_same_phrase"
-    },
-    {
-      "phraseId": "phr-famous-adjacent",
-      "phrase": "famous adjacent",
-      "status": "live",
-      "statusLabel": "Live on site",
-      "lane": "live",
-      "currentOwner": "Content",
-      "nextOwner": "Content/Growth",
-      "updatedAt": "2026-03-13T20:57:13.853Z",
-      "createdAt": "2026-03-13T19:41:46.054Z",
-      "sourceSummary": "",
-      "gates": {
-        "research_packaged": true,
-        "human_approved_research": true,
-        "judge_passed": true,
-        "ops_shopify_verified": true,
-        "content_generated": false,
-        "content_buffer_drafted": false,
-        "ads_live": false
-      },
-      "judge": {},
-      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-famous-adjacent-famous-adjacent.png",
-      "printifyProductId": "69b479ff9bc18531810d13e5",
-      "shopifyProductId": 8205316587577,
-      "shopifyHandle": "famous-adjacent-tee",
-      "shopifyVerdict": "verified_exact",
-      "approvalSource": "research",
-      "phraseRecordStatus": "approved",
-      "desiredCollections": [
-        {
-          "source": "approval",
-          "title": "All Tees",
-          "handle": "all-tees",
-          "collectionId": 466115428409
-        },
-        {
-          "source": "approval",
-          "title": "New Arrivals",
-          "handle": "new-arrivals",
-          "collectionId": 466115493945
-        }
-      ],
-      "pipelineStage": "shopify_verified",
-      "dedupeResult": "already_exists_same_phrase"
-    },
-    {
-      "phraseId": "phr-pleasure-pain",
-      "phrase": "pleasure & pain",
-      "status": "asset",
-      "statusLabel": "Asset ready",
-      "lane": "asset",
-      "currentOwner": "Ops (asset)",
-      "nextOwner": "Printify",
-      "updatedAt": "2026-03-13T19:59:57.134Z",
-      "createdAt": "2026-03-13T19:59:16.625Z",
-      "sourceSummary": "",
-      "gates": {
-        "research_packaged": true,
-        "human_approved_research": true,
-        "judge_passed": false,
-        "ops_shopify_verified": false,
-        "content_generated": false,
-        "content_buffer_drafted": false,
-        "ads_live": false
-      },
-      "judge": {},
-      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-pleasure-pain-pleasure-pain.png",
-      "printifyProductId": null,
-      "shopifyProductId": null,
-      "shopifyHandle": null,
-      "shopifyVerdict": null,
-      "approvalSource": "research",
-      "phraseRecordStatus": "approved",
-      "desiredCollections": [
-        {
-          "source": "approval",
-          "title": "All Tees",
-          "handle": "all-tees",
-          "collectionId": 466115428409
-        },
-        {
-          "source": "approval",
-          "title": "New Arrivals",
-          "handle": "new-arrivals",
-          "collectionId": 466115493945
-        }
-      ],
-      "pipelineStage": "preflight_passed",
-      "dedupeResult": "clear"
-    },
-    {
-      "phraseId": "phr-whole-house-mad",
-      "phrase": "whole house mad",
-      "status": "asset",
-      "statusLabel": "Asset ready",
-      "lane": "asset",
-      "currentOwner": "Ops (asset)",
-      "nextOwner": "Printify",
-      "updatedAt": "2026-03-13T19:59:53.803Z",
-      "createdAt": "2026-03-13T19:59:10.563Z",
-      "sourceSummary": "",
-      "gates": {
-        "research_packaged": true,
-        "human_approved_research": true,
-        "judge_passed": false,
-        "ops_shopify_verified": false,
-        "content_generated": false,
-        "content_buffer_drafted": false,
-        "ads_live": false
-      },
-      "judge": {},
-      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-whole-house-mad-whole-house-mad.png",
-      "printifyProductId": null,
-      "shopifyProductId": null,
-      "shopifyHandle": null,
-      "shopifyVerdict": null,
-      "approvalSource": "research",
-      "phraseRecordStatus": "approved",
-      "desiredCollections": [
-        {
-          "source": "approval",
-          "title": "All Tees",
-          "handle": "all-tees",
-          "collectionId": 466115428409
-        },
-        {
-          "source": "approval",
-          "title": "New Arrivals",
-          "handle": "new-arrivals",
-          "collectionId": 466115493945
-        }
-      ],
-      "pipelineStage": "preflight_passed",
-      "dedupeResult": "clear"
-    },
-    {
-      "phraseId": "phr-0046",
-      "phrase": "low maintenance high consequence",
-      "status": "live",
-      "statusLabel": "Live on site",
-      "lane": "live",
-      "currentOwner": "Content",
-      "nextOwner": "Content/Growth",
-      "updatedAt": "2026-03-12T10:48:08.906Z",
-      "createdAt": "2026-03-10T02:13:39.759Z",
-      "sourceSummary": "Prepared for 20-phrase batch on 2026-03-09.",
-      "gates": {
-        "research_packaged": true,
-        "human_approved_research": true,
-        "judge_passed": true,
-        "ops_shopify_verified": true,
-        "content_generated": false,
-        "content_buffer_drafted": false,
-        "ads_live": false
-      },
-      "judge": {},
-      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-0046-low-maintenance-high-consequence.png",
-      "printifyProductId": "69af9c99b11e1d8f80049188",
-      "shopifyProductId": 8203386814521,
-      "shopifyHandle": "low-maintenance-high-consequence-tee",
-      "shopifyVerdict": "verified_exact",
-      "approvalSource": "manual-batch",
-      "phraseRecordStatus": "approved",
-      "desiredCollections": [
-        {
-          "handle": "all-tees",
-          "title": "All Tees",
-          "collectionId": null,
-          "source": "approval"
-        },
-        {
-          "handle": "new-arrivals",
-          "title": "New Arrivals",
-          "collectionId": null,
-          "source": "approval"
-        }
-      ],
-      "pipelineStage": "shopify_verified",
-      "dedupeResult": "already_exists_same_phrase"
-    },
-    {
-      "phraseId": "phr-0044",
-      "phrase": "i overthink for sport",
-      "status": "live",
-      "statusLabel": "Live on site",
-      "lane": "live",
-      "currentOwner": "Content",
-      "nextOwner": "Content/Growth",
-      "updatedAt": "2026-03-12T10:48:06.414Z",
-      "createdAt": "2026-03-10T02:12:58.765Z",
-      "sourceSummary": "Prepared for 20-phrase batch on 2026-03-09.",
-      "gates": {
-        "research_packaged": true,
-        "human_approved_research": true,
-        "judge_passed": true,
-        "ops_shopify_verified": true,
-        "content_generated": false,
-        "content_buffer_drafted": false,
-        "ads_live": false
-      },
-      "judge": {},
-      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-0044-i-overthink-for-sport.png",
-      "printifyProductId": "69af9d0a69914486520625c3",
-      "shopifyProductId": 8203390025785,
-      "shopifyHandle": "i-overthink-for-sport-tee",
-      "shopifyVerdict": "verified_exact",
-      "approvalSource": "manual-batch",
-      "phraseRecordStatus": "approved",
-      "desiredCollections": [
-        {
-          "handle": "all-tees",
-          "title": "All Tees",
-          "collectionId": null,
-          "source": "approval"
-        },
-        {
-          "handle": "new-arrivals",
-          "title": "New Arrivals",
-          "collectionId": null,
-          "source": "approval"
-        }
-      ],
-      "pipelineStage": "shopify_verified",
-      "dedupeResult": "already_exists_same_phrase"
-    },
-    {
-      "phraseId": "phr-approve-joy-hypothetically",
-      "phrase": "A joy to be around, hypothetically",
-      "status": "asset",
-      "statusLabel": "Asset ready",
-      "lane": "asset",
-      "currentOwner": "Ops (asset)",
-      "nextOwner": "Printify",
-      "updatedAt": "2026-03-11T04:36:37.525Z",
-      "createdAt": "2026-03-11T04:34:20.738Z",
-      "sourceSummary": "",
-      "gates": {
-        "research_packaged": true,
-        "human_approved_research": true,
-        "judge_passed": false,
-        "ops_shopify_verified": false,
-        "content_generated": false,
-        "content_buffer_drafted": false,
-        "ads_live": false
-      },
-      "judge": {},
-      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-approve-joy-hypothetically-a-joy-to-be-around-hypothetically.png",
-      "printifyProductId": null,
-      "shopifyProductId": null,
-      "shopifyHandle": null,
-      "shopifyVerdict": null,
-      "approvalSource": "kolby-approved",
-      "phraseRecordStatus": "approved",
-      "desiredCollections": [],
       "pipelineStage": null,
       "dedupeResult": null
     },
     {
-      "phraseId": "phr-approve-emotionally-expensive",
-      "phrase": "Emotionally expensive",
-      "status": "asset",
-      "statusLabel": "Asset ready",
-      "lane": "asset",
-      "currentOwner": "Ops (asset)",
-      "nextOwner": "Printify",
-      "updatedAt": "2026-03-11T04:36:35.958Z",
-      "createdAt": "2026-03-11T04:34:20.449Z",
+      "phraseId": "phr-the-only-thing-worth-dying-for-love",
+      "phrase": "the only thing worth dying for (love)",
+      "status": "live",
+      "statusLabel": "Live on site",
+      "lane": "live",
+      "currentOwner": "Content",
+      "nextOwner": "Content/Growth",
+      "updatedAt": "2026-03-14T00:26:34.936Z",
+      "createdAt": "2026-03-14T00:25:39.651Z",
       "sourceSummary": "",
       "gates": {
         "research_packaged": true,
         "human_approved_research": true,
-        "judge_passed": false,
-        "ops_shopify_verified": false,
+        "judge_passed": true,
+        "ops_shopify_verified": true,
         "content_generated": false,
         "content_buffer_drafted": false,
         "ads_live": false
       },
       "judge": {},
-      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-approve-emotionally-expensive-emotionally-expensive.png",
-      "printifyProductId": null,
-      "shopifyProductId": null,
-      "shopifyHandle": null,
-      "shopifyVerdict": null,
-      "approvalSource": "kolby-approved",
+      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-the-only-thing-worth-dying-for-love-the-only-thing-worth-dying-for-love.png",
+      "printifyProductId": "69b4ab087de848fda20f91d0",
+      "shopifyProductId": 8205459062841,
+      "shopifyHandle": "the-only-thing-worth-dying-for-love-tee",
+      "shopifyVerdict": "verified_exact",
+      "approvalSource": "research",
       "phraseRecordStatus": "approved",
-      "desiredCollections": [],
-      "pipelineStage": null,
-      "dedupeResult": null
+      "desiredCollections": [
+        {
+          "source": "approval",
+          "title": "All Tees",
+          "handle": "all-tees",
+          "collectionId": 466115428409
+        },
+        {
+          "source": "approval",
+          "title": "New Arrivals",
+          "handle": "new-arrivals",
+          "collectionId": 466115493945
+        }
+      ],
+      "pipelineStage": "shopify_verified",
+      "dedupeResult": "already_exists_same_phrase"
     },
     {
-      "phraseId": "phr-approve-localized-outage",
-      "phrase": "Mentally, I am a localized outage",
-      "status": "asset",
-      "statusLabel": "Asset ready",
-      "lane": "asset",
-      "currentOwner": "Ops (asset)",
-      "nextOwner": "Printify",
-      "updatedAt": "2026-03-11T04:36:34.249Z",
-      "createdAt": "2026-03-11T04:34:20.158Z",
+      "phraseId": "phr-there-is-no-other-god-to-blame",
+      "phrase": "there is no other god to blame",
+      "status": "live",
+      "statusLabel": "Live on site",
+      "lane": "live",
+      "currentOwner": "Content",
+      "nextOwner": "Content/Growth",
+      "updatedAt": "2026-03-14T00:25:39.586Z",
+      "createdAt": "2026-03-14T00:14:21.646Z",
       "sourceSummary": "",
       "gates": {
         "research_packaged": true,
         "human_approved_research": true,
-        "judge_passed": false,
-        "ops_shopify_verified": false,
+        "judge_passed": true,
+        "ops_shopify_verified": true,
         "content_generated": false,
         "content_buffer_drafted": false,
         "ads_live": false
       },
       "judge": {},
-      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-approve-localized-outage-mentally-i-am-a-localized-outage.png",
-      "printifyProductId": null,
-      "shopifyProductId": null,
-      "shopifyHandle": null,
-      "shopifyVerdict": null,
-      "approvalSource": "kolby-approved",
+      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-there-is-no-other-god-to-blame-there-is-no-other-god-to-blame.png",
+      "printifyProductId": "69b4aaca9bc18531810d1d80",
+      "shopifyProductId": 8205457522745,
+      "shopifyHandle": "there-is-no-other-god-to-blame-tee",
+      "shopifyVerdict": "verified_exact",
+      "approvalSource": "research",
       "phraseRecordStatus": "approved",
-      "desiredCollections": [],
-      "pipelineStage": null,
-      "dedupeResult": null
-    },
-    {
-      "phraseId": "phr-approve-spreadsheet-breakdown",
-      "phrase": "I have a spreadsheet for this breakdown",
-      "status": "asset",
-      "statusLabel": "Asset ready",
-      "lane": "asset",
-      "currentOwner": "Ops (asset)",
-      "nextOwner": "Printify",
-      "updatedAt": "2026-03-11T04:36:32.754Z",
-      "createdAt": "2026-03-11T04:34:19.859Z",
-      "sourceSummary": "",
-      "gates": {
-        "research_packaged": true,
-        "human_approved_research": true,
-        "judge_passed": false,
-        "ops_shopify_verified": false,
-        "content_generated": false,
-        "content_buffer_drafted": false,
-        "ads_live": false
-      },
-      "judge": {},
-      "assetPath": "C:\\Users\\black\\.openclaw\\workspace\\products\\print-files\\phr-approve-spreadsheet-breakdown-i-have-a-spreadsheet-for-this-breakdown.png",
-      "printifyProductId": null,
-      "shopifyProductId": null,
-      "shopifyHandle": null,
-      "shopifyVerdict": null,
-      "approvalSource": "kolby-approved",
-      "phraseRecordStatus": "approved",
-      "desiredCollections": [],
-      "pipelineStage": null,
-      "dedupeResult": null
+      "desiredCollections": [
+        {
+          "source": "approval",
+          "title": "All Tees",
+          "handle": "all-tees",
+          "collectionId": 466115428409
+        },
+        {
+          "source": "approval",
+          "title": "New Arrivals",
+          "handle": "new-arrivals",
+          "collectionId": 466115493945
+        }
+      ],
+      "pipelineStage": "shopify_verified",
+      "dedupeResult": "already_exists_same_phrase"
     }
   ],
   "mode": "static-export",
-  "sourceHash": "eec4d5f5bdc942a390ee8948add95e5265f65a8472b34bae0faf21b5b89568b4",
-  "generatedAt": "2026-03-13T23:57:29.176Z"
+  "sourceHash": "2f1e7ae732b59d0b0d39d7807bbab7476882e46bc44d1aa1c7ee5fdd8bfa7e28",
+  "generatedAt": "2026-03-14T05:03:13.395Z"
 }
