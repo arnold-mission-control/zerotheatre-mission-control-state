@@ -1,7 +1,7 @@
 {
   "summary": {
-    "totalPhrases": 69,
-    "backlog": 0,
+    "totalPhrases": 71,
+    "backlog": 2,
     "assetReady": 0,
     "printify": 0,
     "shopify": 0,
@@ -9,7 +9,7 @@
     "blockers": 0,
     "inProduction": 0,
     "stageCounts": {
-      "backlog": 0,
+      "backlog": 2,
       "asset": 0,
       "printify": 0,
       "shopify": 0,
@@ -18,6 +18,96 @@
     }
   },
   "items": [
+    {
+      "phraseId": "phr-pretty-calm-and-done-with-it",
+      "phrase": "pretty, calm, and done with it",
+      "status": "backlog",
+      "statusLabel": "Research / backlog",
+      "lane": "backlog",
+      "currentOwner": "Research",
+      "nextOwner": "Ops",
+      "updatedAt": "2026-03-15T04:09:54Z",
+      "createdAt": "2026-03-15T04:09:54Z",
+      "sourceSummary": "",
+      "gates": {
+        "research_packaged": false,
+        "human_approved_research": false,
+        "judge_passed": false,
+        "ops_shopify_verified": false,
+        "content_generated": false,
+        "content_buffer_drafted": false,
+        "ads_live": false
+      },
+      "judge": {},
+      "assetPath": null,
+      "printifyProductId": null,
+      "shopifyProductId": null,
+      "shopifyHandle": null,
+      "shopifyVerdict": null,
+      "approvalSource": "kolby-approved",
+      "phraseRecordStatus": "approved",
+      "desiredCollections": [
+        {
+          "source": "approval",
+          "title": "All Tees",
+          "handle": "all-tees",
+          "collectionId": 466115428409
+        },
+        {
+          "source": "approval",
+          "title": "New Arrivals",
+          "handle": "new-arrivals",
+          "collectionId": 466115493945
+        }
+      ],
+      "pipelineStage": "approved",
+      "dedupeResult": null
+    },
+    {
+      "phraseId": "phr-i-could-be-meaner",
+      "phrase": "i could be meaner",
+      "status": "backlog",
+      "statusLabel": "Research / backlog",
+      "lane": "backlog",
+      "currentOwner": "Research",
+      "nextOwner": "Ops",
+      "updatedAt": "2026-03-15T04:09:54Z",
+      "createdAt": "2026-03-15T04:09:54Z",
+      "sourceSummary": "",
+      "gates": {
+        "research_packaged": false,
+        "human_approved_research": false,
+        "judge_passed": false,
+        "ops_shopify_verified": false,
+        "content_generated": false,
+        "content_buffer_drafted": false,
+        "ads_live": false
+      },
+      "judge": {},
+      "assetPath": null,
+      "printifyProductId": null,
+      "shopifyProductId": null,
+      "shopifyHandle": null,
+      "shopifyVerdict": null,
+      "approvalSource": "kolby-approved",
+      "phraseRecordStatus": "approved",
+      "desiredCollections": [
+        {
+          "source": "approval",
+          "title": "All Tees",
+          "handle": "all-tees",
+          "collectionId": 466115428409
+        },
+        {
+          "source": "approval",
+          "title": "New Arrivals",
+          "handle": "new-arrivals",
+          "collectionId": 466115493945
+        }
+      ],
+      "pipelineStage": "approved",
+      "dedupeResult": null
+    },
     {
       "phraseId": "phr-youre-the-only-one-of-you",
       "phrase": "you're the only one (of you)",
@@ -3125,6 +3215,6 @@
     }
   ],
   "mode": "static-export",
-  "sourceHash": "90ebaa3cb0b56107455c894b55448791b7069d662c397d35e7da68428173a3bd",
-  "generatedAt": "2026-03-14T17:56:51.290Z"
+  "sourceHash": "3bf72b711e39f030d41cdc25ba02309521f9f22ca8cc2e9e5ef71a76a8777306",
+  "generatedAt": "2026-03-15T05:44:44.599Z"
 }
