@@ -1,23 +1,55 @@
 {
   "summary": {
-    "totalPhrases": 71,
+    "totalPhrases": 72,
     "backlog": 2,
     "assetReady": 0,
-    "printify": 0,
+    "printify": 1,
     "shopify": 0,
     "live": 69,
     "blockers": 0,
-    "inProduction": 0,
+    "inProduction": 1,
     "stageCounts": {
       "backlog": 2,
       "asset": 0,
-      "printify": 0,
+      "printify": 1,
       "shopify": 0,
       "live": 69,
       "blocked": 0
     }
   },
   "items": [
+    {
+      "phraseId": "phr-do-u-know-the-text-man",
+      "phrase": "do u know the text man?",
+      "status": "printify",
+      "statusLabel": "Printify build",
+      "lane": "printify",
+      "currentOwner": "Ops (printify)",
+      "nextOwner": "Shopify",
+      "updatedAt": "2026-03-16T09:43:00.000Z",
+      "createdAt": "2026-03-16T09:16:00.000Z",
+      "sourceSummary": "",
+      "gates": {
+        "research_packaged": true,
+        "human_approved_research": true,
+        "judge_passed": true,
+        "ops_shopify_verified": false,
+        "content_generated": false,
+        "content_buffer_drafted": false,
+        "ads_live": false
+      },
+      "judge": {},
+      "assetPath": null,
+      "printifyProductId": "69b7c90b8f5bd4f1530b8db4",
+      "shopifyProductId": 8207162343481,
+      "shopifyHandle": "do-u-know-the-text-man-tee",
+      "shopifyVerdict": null,
+      "approvalSource": "research",
+      "phraseRecordStatus": "approved",
+      "desiredCollections": [],
+      "pipelineStage": "storefront_reviewed",
+      "dedupeResult": null
+    },
     {
       "phraseId": "phr-pretty-calm-and-done-with-it",
       "phrase": "pretty, calm, and done with it",
@@ -3215,6 +3247,6 @@
     }
   ],
   "mode": "static-export",
-  "sourceHash": "377a000cf38f63ef3e27a97fd8ecfc6d9468b215690ff2e75cdd3784c88f8297",
-  "generatedAt": "2026-03-16T06:06:21.485Z"
+  "sourceHash": "4a855a981d7660405a19b1b85496f530044b5c666eeec86909573592376c2889",
+  "generatedAt": "2026-03-16T09:48:04.605Z"
 }
