@@ -1,13 +1,13 @@
 {
   "title": "Zero Theatre Mission Control",
   "mode": "static-export",
-  "pipelineSourceHash": "ee0c623ceb0ed7b1efcc13fd2622b271894df4f88f44c7a9861447013f5df3bd",
+  "pipelineSourceHash": "0101704c90fa82cfc0c59757df64198bd28959a026574899bb6f09f1c44b699b",
   "costsSourceHash": "8f97f01f4be9d40c61f3b77b0fece8f05302c91fa6976578407e05745006eff8",
   "notes": [
     "Static export for Vercel deployment.",
     "Approval buttons are disabled on the hosted copy until authenticated write APIs are added.",
     "Local Mission Control remains the canonical write surface for now."
   ],
-  "sourceHash": "38ca4cbd6e3e2b518c8d42ce819778fc77b12d4a028807014956692b6c595dd8",
-  "generatedAt": "2026-03-17T05:15:20.113Z"
+  "sourceHash": "7891c4f45dd5f4b0a522b4dd9de490158767dbf34bfc24ac7a4c3bdeca57fd7f",
+  "generatedAt": "2026-03-17T14:43:10.870Z"
 }
